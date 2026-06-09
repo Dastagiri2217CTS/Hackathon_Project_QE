@@ -1,0 +1,1149 @@
+2026-06-04 08:23:55 [main] INFO  com.hackathonproject.listeners.TestListener - ========== TEST SUITE STARTED: Edge Test ==========
+2026-06-04 08:23:57 [main] INFO  com.hackathonproject.hooks.CucumberHooks - ========== TEST EXECUTION STARTED ==========
+2026-06-04 08:23:57 [main] INFO  com.hackathonproject.listeners.TestListener - >>> TEST STARTED: runScenario
+2026-06-04 08:23:57 [main] INFO  com.hackathonproject.base.BaseTest - Initializing Browser: edge
+2026-06-04 08:24:04 [main] INFO  com.hackathonproject.base.BaseTest - Navigated to Practo home page
+2026-06-04 08:24:04 [main] INFO  com.hackathonproject.hooks.CucumberHooks - ---------- SCENARIO STARTED: Find Hospitals in Bangalore open 24x7 with parking and rating above 3.5 ----------
+2026-06-04 08:24:04 [main] INFO  com.hackathonproject.hooks.CucumberHooks - Tags: [@Smoke, @Search]
+2026-06-04 08:24:07 [main] INFO  com.hackathonproject.steps.StepDefs - On Practo Home: Practo | Video Consultation with Doctors, Book Doctor Appointments, Order Medicine, Diagnostic Tests
+2026-06-04 08:24:07 [main] INFO  com.hackathonproject.steps.StepDefs - Searching for service: Hospital in location: Bangalore
+2026-06-04 08:24:14 [main] INFO  com.hackathonproject.util.ScreenshotUtil - Screenshot saved: edge_1_search_result_2026-06-04_08-24-14-935.png
+2026-06-04 08:24:17 [main] INFO  com.hackathonproject.pages.HospitalListingPage - Processing 10 hospitals...
+2026-06-04 08:24:20 [main] INFO  com.hackathonproject.pages.HospitalListingPage - Found: Manipal Hospital Varthur Road (formerly Columbia Asia Hospital)
+2026-06-04 08:24:23 [main] INFO  com.hackathonproject.pages.HospitalListingPage - Found: Manipal Hospitals
+2026-06-04 08:24:25 [main] INFO  com.hackathonproject.pages.HospitalListingPage - Found: Koshys Hospital
+2026-06-04 08:24:27 [main] INFO  com.hackathonproject.pages.HospitalListingPage - Found: Motherhood Hospital
+2026-06-04 08:24:29 [main] INFO  com.hackathonproject.pages.HospitalListingPage - Found: Motherhood Hospital
+2026-06-04 08:24:31 [main] INFO  com.hackathonproject.pages.HospitalListingPage - Found: Sagar Hospitals
+2026-06-04 08:24:32 [main] INFO  com.hackathonproject.pages.HospitalListingPage - Found: Apollo Cradle & Children’s Hospital
+2026-06-04 08:24:34 [main] INFO  com.hackathonproject.pages.HospitalListingPage - Found: Cloudnine Hospital - Old Airport Road
+2026-06-04 08:24:34 [main] INFO  com.hackathonproject.steps.StepDefs - --- Hospitals (Open 24x7, Parking, Rating > 3.5) ---
+2026-06-04 08:24:34 [main] INFO  com.hackathonproject.steps.StepDefs - Manipal Hospital Varthur Road (formerly Columbia Asia Hospital)
+2026-06-04 08:24:34 [main] INFO  com.hackathonproject.steps.StepDefs - Manipal Hospitals
+2026-06-04 08:24:34 [main] INFO  com.hackathonproject.steps.StepDefs - Koshys Hospital
+2026-06-04 08:24:34 [main] INFO  com.hackathonproject.steps.StepDefs - Motherhood Hospital
+2026-06-04 08:24:34 [main] INFO  com.hackathonproject.steps.StepDefs - Motherhood Hospital
+2026-06-04 08:24:34 [main] INFO  com.hackathonproject.steps.StepDefs - Sagar Hospitals
+2026-06-04 08:24:34 [main] INFO  com.hackathonproject.steps.StepDefs - Apollo Cradle & Children’s Hospital
+2026-06-04 08:24:34 [main] INFO  com.hackathonproject.steps.StepDefs - Cloudnine Hospital - Old Airport Road
+2026-06-04 08:24:35 [main] INFO  com.hackathonproject.util.ExcelWriter - Written 8 hospitals to Excel
+2026-06-04 08:24:35 [main] INFO  com.hackathonproject.util.ExcelWriter - Saved Excel: target/generatedData_edge.xlsx
+2026-06-04 08:24:35 [main] INFO  com.hackathonproject.hooks.CucumberHooks - Scenario Status: PASSED
+2026-06-04 08:24:35 [main] INFO  com.hackathonproject.hooks.CucumberHooks - ---------- SCENARIO ENDED: Find Hospitals in Bangalore open 24x7 with parking and rating above 3.5 ----------
+2026-06-04 08:24:35 [main] INFO  com.hackathonproject.base.BaseTest - Closing browser after scenario
+2026-06-04 08:24:39 [main] INFO  com.hackathonproject.listeners.TestListener - ✔ TEST PASSED: runScenario
+2026-06-04 08:24:39 [main] INFO  com.hackathonproject.listeners.TestListener - >>> TEST STARTED: runScenario
+2026-06-04 08:24:39 [main] INFO  com.hackathonproject.base.BaseTest - Initializing Browser: edge
+2026-06-04 08:24:42 [main] INFO  com.hackathonproject.base.BaseTest - Navigated to Practo home page
+2026-06-04 08:24:42 [main] INFO  com.hackathonproject.hooks.CucumberHooks - ---------- SCENARIO STARTED: Capture top cities from Diagnostics page on Practo website ----------
+2026-06-04 08:24:42 [main] INFO  com.hackathonproject.hooks.CucumberHooks - Tags: [@Smoke, @Navigation]
+2026-06-04 08:24:45 [main] INFO  com.hackathonproject.steps.StepDefs - On Practo Home: Practo | Video Consultation with Doctors, Book Doctor Appointments, Order Medicine, Diagnostic Tests
+2026-06-04 08:24:45 [main] INFO  com.hackathonproject.steps.StepDefs - Clicking on Lab Tests
+2026-06-04 08:24:47 [main] INFO  com.hackathonproject.steps.StepDefs - --- Top Diagnostic Cities ---
+2026-06-04 08:24:47 [main] INFO  com.hackathonproject.steps.StepDefs - Bangalore
+2026-06-04 08:24:47 [main] INFO  com.hackathonproject.steps.StepDefs - Delhi
+2026-06-04 08:24:47 [main] INFO  com.hackathonproject.steps.StepDefs - Mumbai
+2026-06-04 08:24:47 [main] INFO  com.hackathonproject.steps.StepDefs - Chennai
+2026-06-04 08:24:47 [main] INFO  com.hackathonproject.steps.StepDefs - Hyderabad
+2026-06-04 08:24:47 [main] INFO  com.hackathonproject.steps.StepDefs - Kolkata
+2026-06-04 08:24:47 [main] INFO  com.hackathonproject.steps.StepDefs - Pune
+2026-06-04 08:24:47 [main] INFO  com.hackathonproject.steps.StepDefs - Ahmedabad
+2026-06-04 08:24:48 [main] INFO  com.hackathonproject.util.ScreenshotUtil - Screenshot saved: edge_2_top_cities_2026-06-04_08-24-48-056.png
+2026-06-04 08:24:48 [main] INFO  com.hackathonproject.util.ExcelWriter - Written 8 cities to Excel
+2026-06-04 08:24:48 [main] INFO  com.hackathonproject.util.ExcelWriter - Saved Excel: target/generatedData_edge.xlsx
+2026-06-04 08:24:48 [main] INFO  com.hackathonproject.hooks.CucumberHooks - Scenario Status: PASSED
+2026-06-04 08:24:48 [main] INFO  com.hackathonproject.hooks.CucumberHooks - ---------- SCENARIO ENDED: Capture top cities from Diagnostics page on Practo website ----------
+2026-06-04 08:24:48 [main] INFO  com.hackathonproject.base.BaseTest - Closing browser after scenario
+2026-06-04 08:24:50 [main] INFO  com.hackathonproject.listeners.TestListener - ✔ TEST PASSED: runScenario
+2026-06-04 08:24:50 [main] INFO  com.hackathonproject.listeners.TestListener - >>> TEST STARTED: runScenario
+2026-06-04 08:24:50 [main] INFO  com.hackathonproject.base.BaseTest - Initializing Browser: edge
+2026-06-04 08:24:54 [main] INFO  com.hackathonproject.base.BaseTest - Navigated to Practo home page
+2026-06-04 08:24:54 [main] INFO  com.hackathonproject.hooks.CucumberHooks - ---------- SCENARIO STARTED: Verify submit button is disabled when Corporate Wellness form has invalid phone number ----------
+2026-06-04 08:24:54 [main] INFO  com.hackathonproject.hooks.CucumberHooks - Tags: [@Smoke, @FormValidation]
+2026-06-04 08:24:57 [main] INFO  com.hackathonproject.steps.StepDefs - On Practo Home: Practo | Video Consultation with Doctors, Book Doctor Appointments, Order Medicine, Diagnostic Tests
+2026-06-04 08:24:57 [main] INFO  com.hackathonproject.steps.StepDefs - Navigating to Corporate Wellness page
+2026-06-04 08:24:58 [main] INFO  com.hackathonproject.steps.StepDefs - Window title: Practo | Video Consultation with Doctors, Book Doctor Appointments, Order Medicine, Diagnostic Tests
+2026-06-04 08:25:02 [main] INFO  com.hackathonproject.steps.StepDefs - Window title: Employee Health | Corporate Health & Wellness Plans | Practo
+2026-06-04 08:25:02 [main] INFO  com.hackathonproject.steps.StepDefs - Switched to: Employee Health | Corporate Health & Wellness Plans | Practo
+2026-06-04 08:25:02 [main] INFO  com.hackathonproject.steps.StepDefs - Filling form - Name: Gopal, Org: Cognizant, Phone: 8970657, Email: gopal@cognizant.com
+2026-06-04 08:25:03 [main] INFO  com.hackathonproject.util.ScreenshotUtil - Screenshot saved: edge_3_corporate_form_filled_2026-06-04_08-25-03-718.png
+2026-06-04 08:25:03 [main] INFO  com.hackathonproject.steps.StepDefs - Submit Button Enabled: false
+2026-06-04 08:25:04 [main] INFO  com.hackathonproject.util.ScreenshotUtil - Screenshot saved: edge_3_submit_button_state_2026-06-04_08-25-03-996.png
+2026-06-04 08:25:04 [main] INFO  com.hackathonproject.steps.StepDefs - Submit button disabled assertion passed — invalid phone correctly rejected
+2026-06-04 08:25:04 [main] INFO  com.hackathonproject.hooks.CucumberHooks - Scenario Status: PASSED
+2026-06-04 08:25:04 [main] INFO  com.hackathonproject.hooks.CucumberHooks - ---------- SCENARIO ENDED: Verify submit button is disabled when Corporate Wellness form has invalid phone number ----------
+2026-06-04 08:25:04 [main] INFO  com.hackathonproject.base.BaseTest - Closing browser after scenario
+2026-06-04 08:25:07 [main] INFO  com.hackathonproject.listeners.TestListener - ✔ TEST PASSED: runScenario
+2026-06-04 08:25:07 [main] INFO  com.hackathonproject.hooks.CucumberHooks - ========== TEST EXECUTION COMPLETED ==========
+2026-06-04 08:25:07 [main] INFO  com.hackathonproject.listeners.TestListener - ========== TEST SUITE FINISHED: Edge Test ==========
+2026-06-04 08:25:07 [main] INFO  com.hackathonproject.listeners.TestListener - Passed : 3
+2026-06-04 08:25:07 [main] INFO  com.hackathonproject.listeners.TestListener - Failed : 0
+2026-06-04 08:25:07 [main] INFO  com.hackathonproject.listeners.TestListener - Skipped: 0
+2026-06-04 08:25:07 [main] INFO  com.hackathonproject.listeners.TestListener - Cucumber report saved for browser: edge
+2026-06-04 08:25:07 [main] INFO  com.hackathonproject.listeners.TestListener - ========== TEST SUITE STARTED: Chrome Test ==========
+2026-06-04 08:25:07 [main] INFO  com.hackathonproject.hooks.CucumberHooks - ========== TEST EXECUTION STARTED ==========
+2026-06-04 08:25:08 [main] INFO  com.hackathonproject.listeners.TestListener - >>> TEST STARTED: runScenario
+2026-06-04 08:25:08 [main] INFO  com.hackathonproject.base.BaseTest - Initializing Browser: chrome
+2026-06-04 08:25:12 [main] INFO  com.hackathonproject.base.BaseTest - Navigated to Practo home page
+2026-06-04 08:25:12 [main] INFO  com.hackathonproject.hooks.CucumberHooks - ---------- SCENARIO STARTED: Find Hospitals in Bangalore open 24x7 with parking and rating above 3.5 ----------
+2026-06-04 08:25:12 [main] INFO  com.hackathonproject.hooks.CucumberHooks - Tags: [@Smoke, @Search]
+2026-06-04 08:25:15 [main] INFO  com.hackathonproject.steps.StepDefs - On Practo Home: Practo | Video Consultation with Doctors, Book Doctor Appointments, Order Medicine, Diagnostic Tests
+2026-06-04 08:25:15 [main] INFO  com.hackathonproject.steps.StepDefs - Searching for service: Hospital in location: Bangalore
+2026-06-04 08:25:22 [main] INFO  com.hackathonproject.util.ScreenshotUtil - Screenshot saved: chrome_1_search_result_2026-06-04_08-25-22-649.png
+2026-06-04 08:25:24 [main] INFO  com.hackathonproject.pages.HospitalListingPage - Processing 10 hospitals...
+2026-06-04 08:25:26 [main] INFO  com.hackathonproject.pages.HospitalListingPage - Found: Manipal Hospital Varthur Road (formerly Columbia Asia Hospital)
+2026-06-04 08:25:29 [main] INFO  com.hackathonproject.pages.HospitalListingPage - Found: Manipal Hospitals
+2026-06-04 08:25:31 [main] INFO  com.hackathonproject.pages.HospitalListingPage - Found: Koshys Hospital
+2026-06-04 08:25:33 [main] INFO  com.hackathonproject.pages.HospitalListingPage - Found: Motherhood Hospital
+2026-06-04 08:25:35 [main] INFO  com.hackathonproject.pages.HospitalListingPage - Found: Motherhood Hospital
+2026-06-04 08:25:37 [main] INFO  com.hackathonproject.pages.HospitalListingPage - Found: Sagar Hospitals
+2026-06-04 08:25:39 [main] INFO  com.hackathonproject.pages.HospitalListingPage - Found: Apollo Cradle & Children’s Hospital
+2026-06-04 08:25:41 [main] INFO  com.hackathonproject.pages.HospitalListingPage - Found: Cloudnine Hospital - Old Airport Road
+2026-06-04 08:25:41 [main] INFO  com.hackathonproject.steps.StepDefs - --- Hospitals (Open 24x7, Parking, Rating > 3.5) ---
+2026-06-04 08:25:41 [main] INFO  com.hackathonproject.steps.StepDefs - Manipal Hospital Varthur Road (formerly Columbia Asia Hospital)
+2026-06-04 08:25:41 [main] INFO  com.hackathonproject.steps.StepDefs - Manipal Hospitals
+2026-06-04 08:25:41 [main] INFO  com.hackathonproject.steps.StepDefs - Koshys Hospital
+2026-06-04 08:25:41 [main] INFO  com.hackathonproject.steps.StepDefs - Motherhood Hospital
+2026-06-04 08:25:41 [main] INFO  com.hackathonproject.steps.StepDefs - Motherhood Hospital
+2026-06-04 08:25:41 [main] INFO  com.hackathonproject.steps.StepDefs - Sagar Hospitals
+2026-06-04 08:25:41 [main] INFO  com.hackathonproject.steps.StepDefs - Apollo Cradle & Children’s Hospital
+2026-06-04 08:25:41 [main] INFO  com.hackathonproject.steps.StepDefs - Cloudnine Hospital - Old Airport Road
+2026-06-04 08:25:41 [main] INFO  com.hackathonproject.util.ExcelWriter - Written 8 hospitals to Excel
+2026-06-04 08:25:41 [main] INFO  com.hackathonproject.util.ExcelWriter - Saved Excel: target/generatedData_chrome.xlsx
+2026-06-04 08:25:41 [main] INFO  com.hackathonproject.hooks.CucumberHooks - Scenario Status: PASSED
+2026-06-04 08:25:41 [main] INFO  com.hackathonproject.hooks.CucumberHooks - ---------- SCENARIO ENDED: Find Hospitals in Bangalore open 24x7 with parking and rating above 3.5 ----------
+2026-06-04 08:25:41 [main] INFO  com.hackathonproject.base.BaseTest - Closing browser after scenario
+2026-06-04 08:25:44 [main] INFO  com.hackathonproject.listeners.TestListener - ✔ TEST PASSED: runScenario
+2026-06-04 08:25:44 [main] INFO  com.hackathonproject.listeners.TestListener - >>> TEST STARTED: runScenario
+2026-06-04 08:25:44 [main] INFO  com.hackathonproject.base.BaseTest - Initializing Browser: chrome
+2026-06-04 08:25:48 [main] INFO  com.hackathonproject.base.BaseTest - Navigated to Practo home page
+2026-06-04 08:25:48 [main] INFO  com.hackathonproject.hooks.CucumberHooks - ---------- SCENARIO STARTED: Capture top cities from Diagnostics page on Practo website ----------
+2026-06-04 08:25:48 [main] INFO  com.hackathonproject.hooks.CucumberHooks - Tags: [@Smoke, @Navigation]
+2026-06-04 08:25:51 [main] INFO  com.hackathonproject.steps.StepDefs - On Practo Home: Practo | Video Consultation with Doctors, Book Doctor Appointments, Order Medicine, Diagnostic Tests
+2026-06-04 08:25:51 [main] INFO  com.hackathonproject.steps.StepDefs - Clicking on Lab Tests
+2026-06-04 08:25:53 [main] INFO  com.hackathonproject.steps.StepDefs - --- Top Diagnostic Cities ---
+2026-06-04 08:25:53 [main] INFO  com.hackathonproject.steps.StepDefs - Bangalore
+2026-06-04 08:25:53 [main] INFO  com.hackathonproject.steps.StepDefs - Delhi
+2026-06-04 08:25:53 [main] INFO  com.hackathonproject.steps.StepDefs - Mumbai
+2026-06-04 08:25:53 [main] INFO  com.hackathonproject.steps.StepDefs - Chennai
+2026-06-04 08:25:53 [main] INFO  com.hackathonproject.steps.StepDefs - Hyderabad
+2026-06-04 08:25:53 [main] INFO  com.hackathonproject.steps.StepDefs - Kolkata
+2026-06-04 08:25:53 [main] INFO  com.hackathonproject.steps.StepDefs - Pune
+2026-06-04 08:25:53 [main] INFO  com.hackathonproject.steps.StepDefs - Ahmedabad
+2026-06-04 08:25:53 [main] INFO  com.hackathonproject.util.ScreenshotUtil - Screenshot saved: chrome_2_top_cities_2026-06-04_08-25-53-852.png
+2026-06-04 08:25:53 [main] INFO  com.hackathonproject.util.ExcelWriter - Written 8 cities to Excel
+2026-06-04 08:25:53 [main] INFO  com.hackathonproject.util.ExcelWriter - Saved Excel: target/generatedData_chrome.xlsx
+2026-06-04 08:25:53 [main] INFO  com.hackathonproject.hooks.CucumberHooks - Scenario Status: PASSED
+2026-06-04 08:25:53 [main] INFO  com.hackathonproject.hooks.CucumberHooks - ---------- SCENARIO ENDED: Capture top cities from Diagnostics page on Practo website ----------
+2026-06-04 08:25:53 [main] INFO  com.hackathonproject.base.BaseTest - Closing browser after scenario
+2026-06-04 08:25:56 [main] INFO  com.hackathonproject.listeners.TestListener - ✔ TEST PASSED: runScenario
+2026-06-04 08:25:56 [main] INFO  com.hackathonproject.listeners.TestListener - >>> TEST STARTED: runScenario
+2026-06-04 08:25:56 [main] INFO  com.hackathonproject.base.BaseTest - Initializing Browser: chrome
+2026-06-04 08:25:59 [main] INFO  com.hackathonproject.base.BaseTest - Navigated to Practo home page
+2026-06-04 08:25:59 [main] INFO  com.hackathonproject.hooks.CucumberHooks - ---------- SCENARIO STARTED: Verify submit button is disabled when Corporate Wellness form has invalid phone number ----------
+2026-06-04 08:25:59 [main] INFO  com.hackathonproject.hooks.CucumberHooks - Tags: [@Smoke, @FormValidation]
+2026-06-04 08:26:02 [main] INFO  com.hackathonproject.steps.StepDefs - On Practo Home: Practo | Video Consultation with Doctors, Book Doctor Appointments, Order Medicine, Diagnostic Tests
+2026-06-04 08:26:02 [main] INFO  com.hackathonproject.steps.StepDefs - Navigating to Corporate Wellness page
+2026-06-04 08:26:03 [main] INFO  com.hackathonproject.steps.StepDefs - Window title: Practo | Video Consultation with Doctors, Book Doctor Appointments, Order Medicine, Diagnostic Tests
+2026-06-04 08:26:06 [main] INFO  com.hackathonproject.steps.StepDefs - Window title: 
+2026-06-04 08:26:06 [main] INFO  com.hackathonproject.steps.StepDefs - Switched to: Employee Health | Corporate Health & Wellness Plans | Practo
+2026-06-04 08:26:06 [main] INFO  com.hackathonproject.steps.StepDefs - Filling form - Name: Gopal, Org: Cognizant, Phone: 8970657, Email: gopal@cognizant.com
+2026-06-04 08:26:08 [main] INFO  com.hackathonproject.util.ScreenshotUtil - Screenshot saved: chrome_3_corporate_form_filled_2026-06-04_08-26-08-083.png
+2026-06-04 08:26:08 [main] INFO  com.hackathonproject.steps.StepDefs - Submit Button Enabled: false
+2026-06-04 08:26:08 [main] INFO  com.hackathonproject.util.ScreenshotUtil - Screenshot saved: chrome_3_submit_button_state_2026-06-04_08-26-08-430.png
+2026-06-04 08:26:08 [main] INFO  com.hackathonproject.steps.StepDefs - Submit button disabled assertion passed — invalid phone correctly rejected
+2026-06-04 08:26:08 [main] INFO  com.hackathonproject.hooks.CucumberHooks - Scenario Status: PASSED
+2026-06-04 08:26:08 [main] INFO  com.hackathonproject.hooks.CucumberHooks - ---------- SCENARIO ENDED: Verify submit button is disabled when Corporate Wellness form has invalid phone number ----------
+2026-06-04 08:26:08 [main] INFO  com.hackathonproject.base.BaseTest - Closing browser after scenario
+2026-06-04 08:26:13 [main] INFO  com.hackathonproject.listeners.TestListener - ✔ TEST PASSED: runScenario
+2026-06-04 08:26:13 [main] INFO  com.hackathonproject.hooks.CucumberHooks - ========== TEST EXECUTION COMPLETED ==========
+2026-06-04 08:26:13 [main] INFO  com.hackathonproject.listeners.TestListener - ========== TEST SUITE FINISHED: Chrome Test ==========
+2026-06-04 08:26:13 [main] INFO  com.hackathonproject.listeners.TestListener - Passed : 3
+2026-06-04 08:26:13 [main] INFO  com.hackathonproject.listeners.TestListener - Failed : 0
+2026-06-04 08:26:13 [main] INFO  com.hackathonproject.listeners.TestListener - Skipped: 0
+2026-06-04 08:26:13 [main] INFO  com.hackathonproject.listeners.TestListener - Cucumber report saved for browser: chrome
+2026-06-04 08:42:00 [TestNG-tests-2] INFO  com.hackathonproject.listeners.TestListener - ========== TEST SUITE STARTED: Chrome Test ==========
+2026-06-04 08:42:00 [TestNG-tests-1] INFO  com.hackathonproject.listeners.TestListener - ========== TEST SUITE STARTED: Edge Test ==========
+2026-06-04 08:42:01 [TestNG-tests-1] INFO  com.hackathonproject.hooks.CucumberHooks - ========== TEST EXECUTION STARTED ==========
+2026-06-04 08:42:01 [TestNG-tests-2] INFO  com.hackathonproject.hooks.CucumberHooks - ========== TEST EXECUTION STARTED ==========
+2026-06-04 08:42:01 [TestNG-tests-1] INFO  com.hackathonproject.listeners.TestListener - >>> TEST STARTED: runScenario
+2026-06-04 08:42:01 [TestNG-tests-2] INFO  com.hackathonproject.listeners.TestListener - >>> TEST STARTED: runScenario
+2026-06-04 08:42:01 [TestNG-tests-2] INFO  com.hackathonproject.base.BaseTest - Initializing Browser: edge
+2026-06-04 08:42:01 [TestNG-tests-1] INFO  com.hackathonproject.base.BaseTest - Initializing Browser: edge
+2026-06-04 08:42:07 [TestNG-tests-2] INFO  com.hackathonproject.base.BaseTest - Navigated to Practo home page
+2026-06-04 08:42:08 [TestNG-tests-2] INFO  com.hackathonproject.hooks.CucumberHooks - ---------- SCENARIO STARTED: Find Hospitals in Bangalore open 24x7 with parking and rating above 3.5 ----------
+2026-06-04 08:42:08 [TestNG-tests-2] INFO  com.hackathonproject.hooks.CucumberHooks - Tags: [@Smoke, @Search]
+2026-06-04 08:42:08 [TestNG-tests-1] INFO  com.hackathonproject.base.BaseTest - Navigated to Practo home page
+2026-06-04 08:42:08 [TestNG-tests-1] INFO  com.hackathonproject.hooks.CucumberHooks - ---------- SCENARIO STARTED: Find Hospitals in Bangalore open 24x7 with parking and rating above 3.5 ----------
+2026-06-04 08:42:08 [TestNG-tests-1] INFO  com.hackathonproject.hooks.CucumberHooks - Tags: [@Smoke, @Search]
+2026-06-04 08:42:12 [TestNG-tests-2] INFO  com.hackathonproject.steps.StepDefs - On Practo Home: Practo | Video Consultation with Doctors, Book Doctor Appointments, Order Medicine, Diagnostic Tests
+2026-06-04 08:42:12 [TestNG-tests-2] INFO  com.hackathonproject.steps.StepDefs - Searching for service: Hospital in location: Bangalore
+2026-06-04 08:42:23 [TestNG-tests-1] INFO  com.hackathonproject.steps.StepDefs - On Practo Home: Best Hospitals Near Me in Bangalore | Practo. Book Appointments, View Fees, Reviews & Contact Details.
+2026-06-04 08:42:23 [TestNG-tests-1] INFO  com.hackathonproject.steps.StepDefs - Searching for service: Hospital in location: Bangalore
+2026-06-04 08:42:29 [TestNG-tests-2] INFO  com.hackathonproject.util.ScreenshotUtil - Screenshot saved: edge_1_search_result_2026-06-04_08-42-29-175.png
+2026-06-04 08:42:29 [TestNG-tests-1] INFO  com.hackathonproject.util.ScreenshotUtil - Screenshot saved: edge_1_search_result_2026-06-04_08-42-29-352.png
+2026-06-04 08:42:31 [TestNG-tests-1] INFO  com.hackathonproject.pages.HospitalListingPage - Processing 10 hospitals...
+2026-06-04 08:42:31 [TestNG-tests-2] INFO  com.hackathonproject.pages.HospitalListingPage - Processing 10 hospitals...
+2026-06-04 08:42:33 [TestNG-tests-1] WARN  com.hackathonproject.pages.HospitalListingPage - Skipping card due to error: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: MicrosoftEdge=148.0.3967.96)
+Build info: version: '4.43.0', revision: 'dd0f534'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [dee383ff8682f27f8976ecacfb8cbf33, close {}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 148.0.3967.96, fedcm:accounts: true, goog:processID: 15364, ms:edgeOptions: {debuggerAddress: localhost:50116}, msedge: {msedgedriverVersion: 148.0.3967.96 (9df8cc82dba1..., userDataDir: C:\Users\2486170\AppData\Lo...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50116/devtoo..., se:cdpVersion: 148.0.3967.96, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: dee383ff8682f27f8976ecacfb8cbf33
+2026-06-04 08:42:34 [TestNG-tests-2] WARN  com.hackathonproject.pages.HospitalListingPage - Skipping card due to error: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: MicrosoftEdge=148.0.3967.96)
+Build info: version: '4.43.0', revision: 'dd0f534'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [dee383ff8682f27f8976ecacfb8cbf33, findChildElement {id=f.CAF109B16432DF665CEE57EF16C1B752.d.3E74102E71CB4E3ADB82DDB522E771D9.e.143, value=.line-1, using=css selector}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 148.0.3967.96, fedcm:accounts: true, goog:processID: 15364, ms:edgeOptions: {debuggerAddress: localhost:50116}, msedge: {msedgedriverVersion: 148.0.3967.96 (9df8cc82dba1..., userDataDir: C:\Users\2486170\AppData\Lo...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50116/devtoo..., se:cdpVersion: 148.0.3967.96, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: dee383ff8682f27f8976ecacfb8cbf33
+2026-06-04 08:42:34 [TestNG-tests-2] WARN  com.hackathonproject.pages.HospitalListingPage - Skipping card due to error: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: MicrosoftEdge=148.0.3967.96)
+Build info: version: '4.43.0', revision: 'dd0f534'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [dee383ff8682f27f8976ecacfb8cbf33, getElementText {id=f.CAF109B16432DF665CEE57EF16C1B752.d.3E74102E71CB4E3ADB82DDB522E771D9.e.190}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 148.0.3967.96, fedcm:accounts: true, goog:processID: 15364, ms:edgeOptions: {debuggerAddress: localhost:50116}, msedge: {msedgedriverVersion: 148.0.3967.96 (9df8cc82dba1..., userDataDir: C:\Users\2486170\AppData\Lo...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50116/devtoo..., se:cdpVersion: 148.0.3967.96, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[EdgeDriver: MicrosoftEdge on windows (dee383ff8682f27f8976ecacfb8cbf33)] -> css selector: .c-estb-card]
+Session ID: dee383ff8682f27f8976ecacfb8cbf33
+2026-06-04 08:42:34 [TestNG-tests-2] WARN  com.hackathonproject.pages.HospitalListingPage - Skipping card due to error: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: MicrosoftEdge=148.0.3967.96)
+Build info: version: '4.43.0', revision: 'dd0f534'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [dee383ff8682f27f8976ecacfb8cbf33, getElementText {id=f.CAF109B16432DF665CEE57EF16C1B752.d.3E74102E71CB4E3ADB82DDB522E771D9.e.191}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 148.0.3967.96, fedcm:accounts: true, goog:processID: 15364, ms:edgeOptions: {debuggerAddress: localhost:50116}, msedge: {msedgedriverVersion: 148.0.3967.96 (9df8cc82dba1..., userDataDir: C:\Users\2486170\AppData\Lo...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50116/devtoo..., se:cdpVersion: 148.0.3967.96, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[EdgeDriver: MicrosoftEdge on windows (dee383ff8682f27f8976ecacfb8cbf33)] -> css selector: .c-estb-card]
+Session ID: dee383ff8682f27f8976ecacfb8cbf33
+2026-06-04 08:42:34 [TestNG-tests-2] WARN  com.hackathonproject.pages.HospitalListingPage - Skipping card due to error: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: MicrosoftEdge=148.0.3967.96)
+Build info: version: '4.43.0', revision: 'dd0f534'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [dee383ff8682f27f8976ecacfb8cbf33, getElementText {id=f.CAF109B16432DF665CEE57EF16C1B752.d.3E74102E71CB4E3ADB82DDB522E771D9.e.192}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 148.0.3967.96, fedcm:accounts: true, goog:processID: 15364, ms:edgeOptions: {debuggerAddress: localhost:50116}, msedge: {msedgedriverVersion: 148.0.3967.96 (9df8cc82dba1..., userDataDir: C:\Users\2486170\AppData\Lo...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50116/devtoo..., se:cdpVersion: 148.0.3967.96, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[EdgeDriver: MicrosoftEdge on windows (dee383ff8682f27f8976ecacfb8cbf33)] -> css selector: .c-estb-card]
+Session ID: dee383ff8682f27f8976ecacfb8cbf33
+2026-06-04 08:42:34 [TestNG-tests-1] INFO  com.hackathonproject.hooks.CucumberHooks - Scenario Status: FAILED
+2026-06-04 08:42:34 [TestNG-tests-1] ERROR com.hackathonproject.hooks.CucumberHooks - SCENARIO FAILED: Find Hospitals in Bangalore open 24x7 with parking and rating above 3.5
+2026-06-04 08:42:34 [TestNG-tests-1] ERROR com.hackathonproject.hooks.CucumberHooks - Could not attach screenshot: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: MicrosoftEdge=148.0.3967.96)
+Build info: version: '4.43.0', revision: 'dd0f534'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [dee383ff8682f27f8976ecacfb8cbf33, screenshot {}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 148.0.3967.96, fedcm:accounts: true, goog:processID: 15364, ms:edgeOptions: {debuggerAddress: localhost:50116}, msedge: {msedgedriverVersion: 148.0.3967.96 (9df8cc82dba1..., userDataDir: C:\Users\2486170\AppData\Lo...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50116/devtoo..., se:cdpVersion: 148.0.3967.96, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: dee383ff8682f27f8976ecacfb8cbf33
+2026-06-04 08:42:34 [TestNG-tests-2] WARN  com.hackathonproject.pages.HospitalListingPage - Skipping card due to error: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: MicrosoftEdge=148.0.3967.96)
+Build info: version: '4.43.0', revision: 'dd0f534'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [dee383ff8682f27f8976ecacfb8cbf33, getElementText {id=f.CAF109B16432DF665CEE57EF16C1B752.d.3E74102E71CB4E3ADB82DDB522E771D9.e.182}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 148.0.3967.96, fedcm:accounts: true, goog:processID: 15364, ms:edgeOptions: {debuggerAddress: localhost:50116}, msedge: {msedgedriverVersion: 148.0.3967.96 (9df8cc82dba1..., userDataDir: C:\Users\2486170\AppData\Lo...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50116/devtoo..., se:cdpVersion: 148.0.3967.96, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[EdgeDriver: MicrosoftEdge on windows (dee383ff8682f27f8976ecacfb8cbf33)] -> css selector: .c-estb-card]
+Session ID: dee383ff8682f27f8976ecacfb8cbf33
+2026-06-04 08:42:34 [TestNG-tests-1] INFO  com.hackathonproject.hooks.CucumberHooks - ---------- SCENARIO ENDED: Find Hospitals in Bangalore open 24x7 with parking and rating above 3.5 ----------
+2026-06-04 08:42:34 [TestNG-tests-1] INFO  com.hackathonproject.base.BaseTest - Closing browser after scenario
+2026-06-04 08:42:34 [TestNG-tests-2] WARN  com.hackathonproject.pages.HospitalListingPage - Skipping card due to error: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: MicrosoftEdge=148.0.3967.96)
+Build info: version: '4.43.0', revision: 'dd0f534'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [dee383ff8682f27f8976ecacfb8cbf33, getElementText {id=f.CAF109B16432DF665CEE57EF16C1B752.d.3E74102E71CB4E3ADB82DDB522E771D9.e.193}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 148.0.3967.96, fedcm:accounts: true, goog:processID: 15364, ms:edgeOptions: {debuggerAddress: localhost:50116}, msedge: {msedgedriverVersion: 148.0.3967.96 (9df8cc82dba1..., userDataDir: C:\Users\2486170\AppData\Lo...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50116/devtoo..., se:cdpVersion: 148.0.3967.96, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[EdgeDriver: MicrosoftEdge on windows (dee383ff8682f27f8976ecacfb8cbf33)] -> css selector: .c-estb-card]
+Session ID: dee383ff8682f27f8976ecacfb8cbf33
+2026-06-04 08:42:34 [TestNG-tests-2] WARN  com.hackathonproject.pages.HospitalListingPage - Skipping card due to error: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: MicrosoftEdge=148.0.3967.96)
+Build info: version: '4.43.0', revision: 'dd0f534'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [dee383ff8682f27f8976ecacfb8cbf33, getElementText {id=f.CAF109B16432DF665CEE57EF16C1B752.d.3E74102E71CB4E3ADB82DDB522E771D9.e.194}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 148.0.3967.96, fedcm:accounts: true, goog:processID: 15364, ms:edgeOptions: {debuggerAddress: localhost:50116}, msedge: {msedgedriverVersion: 148.0.3967.96 (9df8cc82dba1..., userDataDir: C:\Users\2486170\AppData\Lo...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50116/devtoo..., se:cdpVersion: 148.0.3967.96, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[EdgeDriver: MicrosoftEdge on windows (dee383ff8682f27f8976ecacfb8cbf33)] -> css selector: .c-estb-card]
+Session ID: dee383ff8682f27f8976ecacfb8cbf33
+2026-06-04 08:42:37 [TestNG-tests-2] WARN  com.hackathonproject.pages.HospitalListingPage - Skipping card due to error: Error communicating with the remote browser. It may have died.
+Build info: version: '4.43.0', revision: 'dd0f534'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [dee383ff8682f27f8976ecacfb8cbf33, getElementText [id]]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 148.0.3967.96, fedcm:accounts: true, goog:processID: 15364, ms:edgeOptions: {debuggerAddress: localhost:50116}, msedge: {msedgedriverVersion: 148.0.3967.96 (9df8cc82dba1..., userDataDir: C:\Users\2486170\AppData\Lo...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50116/devtoo..., se:cdpVersion: 148.0.3967.96, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[EdgeDriver: MicrosoftEdge on windows (dee383ff8682f27f8976ecacfb8cbf33)] -> css selector: .c-estb-card]
+Session ID: dee383ff8682f27f8976ecacfb8cbf33
+2026-06-04 08:42:37 [TestNG-tests-2] INFO  com.hackathonproject.hooks.CucumberHooks - Scenario Status: FAILED
+2026-06-04 08:42:37 [TestNG-tests-2] ERROR com.hackathonproject.hooks.CucumberHooks - SCENARIO FAILED: Find Hospitals in Bangalore open 24x7 with parking and rating above 3.5
+2026-06-04 08:42:37 [TestNG-tests-2] ERROR com.hackathonproject.hooks.CucumberHooks - Could not attach screenshot: Error communicating with the remote browser. It may have died.
+Build info: version: '4.43.0', revision: 'dd0f534'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [dee383ff8682f27f8976ecacfb8cbf33, screenshot []]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 148.0.3967.96, fedcm:accounts: true, goog:processID: 15364, ms:edgeOptions: {debuggerAddress: localhost:50116}, msedge: {msedgedriverVersion: 148.0.3967.96 (9df8cc82dba1..., userDataDir: C:\Users\2486170\AppData\Lo...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50116/devtoo..., se:cdpVersion: 148.0.3967.96, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: dee383ff8682f27f8976ecacfb8cbf33
+2026-06-04 08:42:37 [TestNG-tests-2] INFO  com.hackathonproject.hooks.CucumberHooks - ---------- SCENARIO ENDED: Find Hospitals in Bangalore open 24x7 with parking and rating above 3.5 ----------
+2026-06-04 08:42:37 [TestNG-tests-2] INFO  com.hackathonproject.base.BaseTest - Closing browser after scenario
+2026-06-04 08:42:37 [TestNG-tests-2] ERROR com.hackathonproject.listeners.TestListener - ✘ TEST FAILED: runScenario
+2026-06-04 08:42:37 [TestNG-tests-1] ERROR com.hackathonproject.listeners.TestListener - ✘ TEST FAILED: runScenario
+2026-06-04 08:42:37 [TestNG-tests-1] ERROR com.hackathonproject.listeners.TestListener - Reason: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: MicrosoftEdge=148.0.3967.96)
+Build info: version: '4.43.0', revision: 'dd0f534'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [dee383ff8682f27f8976ecacfb8cbf33, getCurrentWindowHandle {}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 148.0.3967.96, fedcm:accounts: true, goog:processID: 15364, ms:edgeOptions: {debuggerAddress: localhost:50116}, msedge: {msedgedriverVersion: 148.0.3967.96 (9df8cc82dba1..., userDataDir: C:\Users\2486170\AppData\Lo...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50116/devtoo..., se:cdpVersion: 148.0.3967.96, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: dee383ff8682f27f8976ecacfb8cbf33
+2026-06-04 08:42:37 [TestNG-tests-2] ERROR com.hackathonproject.listeners.TestListener - Reason: Error communicating with the remote browser. It may have died.
+Build info: version: '4.43.0', revision: 'dd0f534'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [dee383ff8682f27f8976ecacfb8cbf33, getWindowHandles []]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 148.0.3967.96, fedcm:accounts: true, goog:processID: 15364, ms:edgeOptions: {debuggerAddress: localhost:50116}, msedge: {msedgedriverVersion: 148.0.3967.96 (9df8cc82dba1..., userDataDir: C:\Users\2486170\AppData\Lo...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50116/devtoo..., se:cdpVersion: 148.0.3967.96, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: dee383ff8682f27f8976ecacfb8cbf33
+2026-06-04 08:42:37 [TestNG-tests-1] INFO  com.hackathonproject.listeners.TestListener - >>> TEST STARTED: runScenario
+2026-06-04 08:42:37 [TestNG-tests-2] INFO  com.hackathonproject.listeners.TestListener - >>> TEST STARTED: runScenario
+2026-06-04 08:42:37 [TestNG-tests-2] INFO  com.hackathonproject.base.BaseTest - Initializing Browser: edge
+2026-06-04 08:42:37 [TestNG-tests-1] INFO  com.hackathonproject.base.BaseTest - Initializing Browser: edge
+2026-06-04 08:42:42 [TestNG-tests-1] INFO  com.hackathonproject.base.BaseTest - Navigated to Practo home page
+2026-06-04 08:42:42 [TestNG-tests-1] INFO  com.hackathonproject.hooks.CucumberHooks - ---------- SCENARIO STARTED: Capture top cities from Diagnostics page on Practo website ----------
+2026-06-04 08:42:42 [TestNG-tests-1] INFO  com.hackathonproject.hooks.CucumberHooks - Tags: [@Smoke, @Navigation]
+2026-06-04 08:42:43 [TestNG-tests-2] INFO  com.hackathonproject.base.BaseTest - Navigated to Practo home page
+2026-06-04 08:42:43 [TestNG-tests-2] INFO  com.hackathonproject.hooks.CucumberHooks - ---------- SCENARIO STARTED: Capture top cities from Diagnostics page on Practo website ----------
+2026-06-04 08:42:43 [TestNG-tests-2] INFO  com.hackathonproject.hooks.CucumberHooks - Tags: [@Smoke, @Navigation]
+2026-06-04 08:42:45 [TestNG-tests-1] INFO  com.hackathonproject.steps.StepDefs - On Practo Home: Practo | Video Consultation with Doctors, Book Doctor Appointments, Order Medicine, Diagnostic Tests
+2026-06-04 08:42:45 [TestNG-tests-1] INFO  com.hackathonproject.steps.StepDefs - Clicking on Lab Tests
+2026-06-04 08:42:47 [TestNG-tests-2] INFO  com.hackathonproject.steps.StepDefs - On Practo Home: Blood Tests | Book Diagnostic Tests from Home at Best Prices | Practo
+2026-06-04 08:42:47 [TestNG-tests-2] INFO  com.hackathonproject.steps.StepDefs - Clicking on Lab Tests
+2026-06-04 08:42:48 [TestNG-tests-1] INFO  com.hackathonproject.steps.StepDefs - --- Top Diagnostic Cities ---
+2026-06-04 08:42:48 [TestNG-tests-1] INFO  com.hackathonproject.steps.StepDefs - Bangalore
+2026-06-04 08:42:48 [TestNG-tests-1] INFO  com.hackathonproject.steps.StepDefs - Delhi
+2026-06-04 08:42:48 [TestNG-tests-1] INFO  com.hackathonproject.steps.StepDefs - Mumbai
+2026-06-04 08:42:49 [TestNG-tests-1] INFO  com.hackathonproject.util.ScreenshotUtil - Screenshot saved: edge_2_top_cities_2026-06-04_08-42-49-125.png
+2026-06-04 08:42:49 [TestNG-tests-2] INFO  com.hackathonproject.steps.StepDefs - --- Top Diagnostic Cities ---
+2026-06-04 08:42:49 [TestNG-tests-2] INFO  com.hackathonproject.steps.StepDefs - Bangalore
+2026-06-04 08:42:49 [TestNG-tests-2] INFO  com.hackathonproject.steps.StepDefs - Delhi
+2026-06-04 08:42:49 [TestNG-tests-2] INFO  com.hackathonproject.steps.StepDefs - Mumbai
+2026-06-04 08:42:49 [TestNG-tests-2] INFO  com.hackathonproject.steps.StepDefs - Chennai
+2026-06-04 08:42:49 [TestNG-tests-2] INFO  com.hackathonproject.steps.StepDefs - Hyderabad
+2026-06-04 08:42:49 [TestNG-tests-2] INFO  com.hackathonproject.steps.StepDefs - Kolkata
+2026-06-04 08:42:49 [TestNG-tests-2] INFO  com.hackathonproject.steps.StepDefs - Pune
+2026-06-04 08:42:49 [TestNG-tests-2] INFO  com.hackathonproject.steps.StepDefs - Ahmedabad
+2026-06-04 08:42:49 [TestNG-tests-2] INFO  com.hackathonproject.util.ScreenshotUtil - Screenshot saved: edge_2_top_cities_2026-06-04_08-42-49-306.png
+2026-06-04 08:42:49 [TestNG-tests-2] INFO  com.hackathonproject.hooks.CucumberHooks - Scenario Status: FAILED
+2026-06-04 08:42:49 [TestNG-tests-2] ERROR com.hackathonproject.hooks.CucumberHooks - SCENARIO FAILED: Capture top cities from Diagnostics page on Practo website
+2026-06-04 08:42:50 [TestNG-tests-1] INFO  com.hackathonproject.util.ExcelWriter - Written 3 cities to Excel
+2026-06-04 08:42:50 [TestNG-tests-2] INFO  com.hackathonproject.hooks.CucumberHooks - Failure screenshot attached to report
+2026-06-04 08:42:50 [TestNG-tests-2] INFO  com.hackathonproject.hooks.CucumberHooks - ---------- SCENARIO ENDED: Capture top cities from Diagnostics page on Practo website ----------
+2026-06-04 08:42:50 [TestNG-tests-2] INFO  com.hackathonproject.base.BaseTest - Closing browser after scenario
+2026-06-04 08:42:50 [TestNG-tests-1] INFO  com.hackathonproject.util.ExcelWriter - Saved Excel: target/generatedData_edge.xlsx
+2026-06-04 08:42:50 [TestNG-tests-1] INFO  com.hackathonproject.hooks.CucumberHooks - Scenario Status: PASSED
+2026-06-04 08:42:50 [TestNG-tests-1] INFO  com.hackathonproject.hooks.CucumberHooks - ---------- SCENARIO ENDED: Capture top cities from Diagnostics page on Practo website ----------
+2026-06-04 08:42:50 [TestNG-tests-1] INFO  com.hackathonproject.base.BaseTest - Closing browser after scenario
+2026-06-04 08:42:53 [TestNG-tests-2] ERROR com.hackathonproject.listeners.TestListener - ✘ TEST FAILED: runScenario
+2026-06-04 08:42:53 [TestNG-tests-2] ERROR com.hackathonproject.listeners.TestListener - Reason: org.apache.poi.openxml4j.exceptions.InvalidOperationException: You can't add a part with a part name derived from another part ! [M1.11]
+2026-06-04 08:42:53 [TestNG-tests-2] INFO  com.hackathonproject.listeners.TestListener - >>> TEST STARTED: runScenario
+2026-06-04 08:42:53 [TestNG-tests-1] ERROR com.hackathonproject.listeners.TestListener - ✘ TEST FAILED: runScenario
+2026-06-04 08:42:53 [TestNG-tests-1] ERROR com.hackathonproject.listeners.TestListener - Reason: Timed out waiting for driver server to stop.
+Build info: version: '4.43.0', revision: 'dd0f534'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [cdf73a1c841b724acc10916f1dcb7b38, quit {}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 148.0.3967.96, fedcm:accounts: true, goog:processID: 22700, ms:edgeOptions: {debuggerAddress: localhost:56601}, msedge: {msedgedriverVersion: 148.0.3967.96 (9df8cc82dba1..., userDataDir: C:\Users\2486170\AppData\Lo...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56601/devtoo..., se:cdpVersion: 148.0.3967.96, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+2026-06-04 08:42:53 [TestNG-tests-1] INFO  com.hackathonproject.listeners.TestListener - >>> TEST STARTED: runScenario
+2026-06-04 08:42:53 [TestNG-tests-2] INFO  com.hackathonproject.base.BaseTest - Initializing Browser: edge
+2026-06-04 08:42:53 [TestNG-tests-1] INFO  com.hackathonproject.base.BaseTest - Initializing Browser: edge
+2026-06-04 08:42:56 [TestNG-tests-1] INFO  com.hackathonproject.base.BaseTest - Navigated to Practo home page
+2026-06-04 08:42:56 [TestNG-tests-1] INFO  com.hackathonproject.hooks.CucumberHooks - ---------- SCENARIO STARTED: Verify submit button is disabled when Corporate Wellness form has invalid phone number ----------
+2026-06-04 08:42:56 [TestNG-tests-1] INFO  com.hackathonproject.hooks.CucumberHooks - Tags: [@Smoke, @FormValidation]
+2026-06-04 08:42:58 [TestNG-tests-2] INFO  com.hackathonproject.base.BaseTest - Navigated to Practo home page
+2026-06-04 08:42:58 [TestNG-tests-2] INFO  com.hackathonproject.hooks.CucumberHooks - ---------- SCENARIO STARTED: Verify submit button is disabled when Corporate Wellness form has invalid phone number ----------
+2026-06-04 08:42:58 [TestNG-tests-2] INFO  com.hackathonproject.hooks.CucumberHooks - Tags: [@Smoke, @FormValidation]
+2026-06-04 08:43:01 [TestNG-tests-1] INFO  com.hackathonproject.steps.StepDefs - On Practo Home: Practo | Video Consultation with Doctors, Book Doctor Appointments, Order Medicine, Diagnostic Tests
+2026-06-04 08:43:01 [TestNG-tests-1] INFO  com.hackathonproject.steps.StepDefs - Navigating to Corporate Wellness page
+2026-06-04 08:43:02 [TestNG-tests-2] INFO  com.hackathonproject.steps.StepDefs - On Practo Home: Practo | Video Consultation with Doctors, Book Doctor Appointments, Order Medicine, Diagnostic Tests
+2026-06-04 08:43:02 [TestNG-tests-2] INFO  com.hackathonproject.steps.StepDefs - Navigating to Corporate Wellness page
+2026-06-04 08:43:03 [TestNG-tests-2] INFO  com.hackathonproject.steps.StepDefs - Window title: Practo | Video Consultation with Doctors, Book Doctor Appointments, Order Medicine, Diagnostic Tests
+2026-06-04 08:43:09 [TestNG-tests-2] INFO  com.hackathonproject.steps.StepDefs - Window title: Employee Health | Corporate Health & Wellness Plans | Practo
+2026-06-04 08:43:19 [TestNG-tests-2] INFO  com.hackathonproject.steps.StepDefs - Switched to: Employee Health | Corporate Health & Wellness Plans | Practo
+2026-06-04 08:43:19 [TestNG-tests-2] INFO  com.hackathonproject.steps.StepDefs - Filling form - Name: Gopal, Org: Cognizant, Phone: 8970657, Email: gopal@cognizant.com
+2026-06-04 08:43:19 [TestNG-tests-1] INFO  com.hackathonproject.hooks.CucumberHooks - Scenario Status: FAILED
+2026-06-04 08:43:19 [TestNG-tests-1] ERROR com.hackathonproject.hooks.CucumberHooks - SCENARIO FAILED: Verify submit button is disabled when Corporate Wellness form has invalid phone number
+2026-06-04 08:43:19 [TestNG-tests-1] INFO  com.hackathonproject.hooks.CucumberHooks - Failure screenshot attached to report
+2026-06-04 08:43:19 [TestNG-tests-1] INFO  com.hackathonproject.hooks.CucumberHooks - ---------- SCENARIO ENDED: Verify submit button is disabled when Corporate Wellness form has invalid phone number ----------
+2026-06-04 08:43:19 [TestNG-tests-1] INFO  com.hackathonproject.base.BaseTest - Closing browser after scenario
+2026-06-04 08:43:22 [TestNG-tests-2] INFO  com.hackathonproject.hooks.CucumberHooks - Scenario Status: FAILED
+2026-06-04 08:43:22 [TestNG-tests-2] ERROR com.hackathonproject.hooks.CucumberHooks - SCENARIO FAILED: Verify submit button is disabled when Corporate Wellness form has invalid phone number
+2026-06-04 08:43:22 [TestNG-tests-2] ERROR com.hackathonproject.hooks.CucumberHooks - Could not attach screenshot: Error communicating with the remote browser. It may have died.
+Build info: version: '4.43.0', revision: 'dd0f534'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [4fe3a79ad7182a5f6051b5cd29910701, screenshot []]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 148.0.3967.96, fedcm:accounts: true, goog:processID: 22156, ms:edgeOptions: {debuggerAddress: localhost:64024}, msedge: {msedgedriverVersion: 148.0.3967.96 (9df8cc82dba1..., userDataDir: C:\Users\2486170\AppData\Lo...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64024/devtoo..., se:cdpVersion: 148.0.3967.96, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 4fe3a79ad7182a5f6051b5cd29910701
+2026-06-04 08:43:22 [TestNG-tests-2] INFO  com.hackathonproject.hooks.CucumberHooks - ---------- SCENARIO ENDED: Verify submit button is disabled when Corporate Wellness form has invalid phone number ----------
+2026-06-04 08:43:22 [TestNG-tests-2] INFO  com.hackathonproject.base.BaseTest - Closing browser after scenario
+2026-06-04 08:43:23 [TestNG-tests-1] ERROR com.hackathonproject.listeners.TestListener - ✘ TEST FAILED: runScenario
+2026-06-04 08:43:23 [TestNG-tests-1] ERROR com.hackathonproject.listeners.TestListener - Reason: Expected condition failed: waiting for element found by By.xpath: //*[contains(@class,'nav-interact') and contains(text(),'For Corporates')] to be clickable, but the element was not found: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[contains(@class,'nav-interact') and contains(text(),'For Corporates')]"}.
+(tried for 15 seconds with 500 milliseconds interval)
+Build info: version: '4.43.0', revision: 'dd0f534'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 148.0.3967.96, fedcm:accounts: true, goog:processID: 22156, ms:edgeOptions: {debuggerAddress: localhost:64024}, msedge: {msedgedriverVersion: 148.0.3967.96 (9df8cc82dba1..., userDataDir: C:\Users\2486170\AppData\Lo...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64024/devtoo..., se:cdpVersion: 148.0.3967.96, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 4fe3a79ad7182a5f6051b5cd29910701
+2026-06-04 08:43:23 [TestNG-tests-2] ERROR com.hackathonproject.listeners.TestListener - ✘ TEST FAILED: runScenario
+2026-06-04 08:43:23 [TestNG-tests-2] ERROR com.hackathonproject.listeners.TestListener - Reason: Error communicating with the remote browser. It may have died.
+Build info: version: '4.43.0', revision: 'dd0f534'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [4fe3a79ad7182a5f6051b5cd29910701, findElement [using, value]]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 148.0.3967.96, fedcm:accounts: true, goog:processID: 22156, ms:edgeOptions: {debuggerAddress: localhost:64024}, msedge: {msedgedriverVersion: 148.0.3967.96 (9df8cc82dba1..., userDataDir: C:\Users\2486170\AppData\Lo...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64024/devtoo..., se:cdpVersion: 148.0.3967.96, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 4fe3a79ad7182a5f6051b5cd29910701
+2026-06-04 08:43:23 [TestNG-tests-1] INFO  com.hackathonproject.hooks.CucumberHooks - ========== TEST EXECUTION COMPLETED ==========
+2026-06-04 08:43:23 [TestNG-tests-2] INFO  com.hackathonproject.hooks.CucumberHooks - ========== TEST EXECUTION COMPLETED ==========
+2026-06-04 08:43:24 [TestNG-tests-2] INFO  com.hackathonproject.listeners.TestListener - ========== TEST SUITE FINISHED: Chrome Test ==========
+2026-06-04 08:43:24 [TestNG-tests-2] INFO  com.hackathonproject.listeners.TestListener - Passed : 0
+2026-06-04 08:43:24 [TestNG-tests-1] INFO  com.hackathonproject.listeners.TestListener - ========== TEST SUITE FINISHED: Edge Test ==========
+2026-06-04 08:43:24 [TestNG-tests-2] INFO  com.hackathonproject.listeners.TestListener - Failed : 3
+2026-06-04 08:43:24 [TestNG-tests-2] INFO  com.hackathonproject.listeners.TestListener - Skipped: 0
+2026-06-04 08:43:24 [TestNG-tests-1] INFO  com.hackathonproject.listeners.TestListener - Passed : 0
+2026-06-04 08:43:24 [TestNG-tests-1] INFO  com.hackathonproject.listeners.TestListener - Failed : 3
+2026-06-04 08:43:24 [TestNG-tests-1] INFO  com.hackathonproject.listeners.TestListener - Skipped: 0
+2026-06-04 08:43:24 [TestNG-tests-2] WARN  com.hackathonproject.listeners.TestListener - Could not copy Cucumber report: target\cucumber-reports\cucumber_edge.html
+2026-06-04 08:43:24 [TestNG-tests-1] INFO  com.hackathonproject.listeners.TestListener - Cucumber report saved for browser: edge
+2026-06-04 08:43:47 [TestNG-tests-1] INFO  com.hackathonproject.listeners.TestListener - ========== TEST SUITE STARTED: Edge Test ==========
+2026-06-04 08:43:47 [TestNG-tests-2] INFO  com.hackathonproject.listeners.TestListener - ========== TEST SUITE STARTED: Chrome Test ==========
+2026-06-04 08:43:48 [TestNG-tests-2] INFO  com.hackathonproject.hooks.CucumberHooks - ========== TEST EXECUTION STARTED ==========
+2026-06-04 08:43:48 [TestNG-tests-1] INFO  com.hackathonproject.hooks.CucumberHooks - ========== TEST EXECUTION STARTED ==========
+2026-06-04 08:43:48 [TestNG-tests-2] INFO  com.hackathonproject.listeners.TestListener - >>> TEST STARTED: runScenario
+2026-06-04 08:43:48 [TestNG-tests-1] INFO  com.hackathonproject.listeners.TestListener - >>> TEST STARTED: runScenario
+2026-06-04 08:43:48 [TestNG-tests-2] INFO  com.hackathonproject.base.BaseTest - Initializing Browser: edge
+2026-06-04 08:43:48 [TestNG-tests-1] INFO  com.hackathonproject.base.BaseTest - Initializing Browser: edge
+2026-06-04 08:43:53 [TestNG-tests-2] INFO  com.hackathonproject.base.BaseTest - Navigated to Practo home page
+2026-06-04 08:43:54 [TestNG-tests-2] INFO  com.hackathonproject.hooks.CucumberHooks - ---------- SCENARIO STARTED: Find Hospitals in Bangalore open 24x7 with parking and rating above 3.5 ----------
+2026-06-04 08:43:54 [TestNG-tests-2] INFO  com.hackathonproject.hooks.CucumberHooks - Tags: [@Smoke, @Search]
+2026-06-04 08:43:55 [TestNG-tests-1] INFO  com.hackathonproject.base.BaseTest - Navigated to Practo home page
+2026-06-04 08:43:55 [TestNG-tests-1] INFO  com.hackathonproject.hooks.CucumberHooks - ---------- SCENARIO STARTED: Find Hospitals in Bangalore open 24x7 with parking and rating above 3.5 ----------
+2026-06-04 08:43:55 [TestNG-tests-1] INFO  com.hackathonproject.hooks.CucumberHooks - Tags: [@Smoke, @Search]
+2026-06-04 08:43:58 [TestNG-tests-2] INFO  com.hackathonproject.steps.StepDefs - On Practo Home: Practo | Video Consultation with Doctors, Book Doctor Appointments, Order Medicine, Diagnostic Tests
+2026-06-04 08:43:58 [TestNG-tests-2] INFO  com.hackathonproject.steps.StepDefs - Searching for service: Hospital in location: Bangalore
+2026-06-04 08:44:04 [TestNG-tests-1] INFO  com.hackathonproject.steps.StepDefs - On Practo Home: Best Hospitals Near Me in Bangalore | Practo. Book Appointments, View Fees, Reviews & Contact Details.
+2026-06-04 08:44:04 [TestNG-tests-1] INFO  com.hackathonproject.steps.StepDefs - Searching for service: Hospital in location: Bangalore
+2026-06-04 08:44:12 [TestNG-tests-2] INFO  com.hackathonproject.util.ScreenshotUtil - Screenshot saved: edge_1_search_result_2026-06-04_08-44-12-158.png
+2026-06-04 08:44:12 [TestNG-tests-1] INFO  com.hackathonproject.util.ScreenshotUtil - Screenshot saved: edge_1_search_result_2026-06-04_08-44-12-281.png
+2026-06-04 08:44:14 [TestNG-tests-2] INFO  com.hackathonproject.pages.HospitalListingPage - Processing 10 hospitals...
+2026-06-04 08:44:14 [TestNG-tests-1] INFO  com.hackathonproject.pages.HospitalListingPage - Processing 10 hospitals...
+2026-06-04 08:44:16 [TestNG-tests-2] WARN  com.hackathonproject.pages.HospitalListingPage - Skipping card due to error: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: MicrosoftEdge=148.0.3967.96)
+Build info: version: '4.43.0', revision: 'dd0f534'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [dc4f6ea882c8112efaaeb8fae9fde90d, close {}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 148.0.3967.96, fedcm:accounts: true, goog:processID: 18476, ms:edgeOptions: {debuggerAddress: localhost:49729}, msedge: {msedgedriverVersion: 148.0.3967.96 (9df8cc82dba1..., userDataDir: C:\Users\2486170\AppData\Lo...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49729/devtoo..., se:cdpVersion: 148.0.3967.96, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: dc4f6ea882c8112efaaeb8fae9fde90d
+2026-06-04 08:44:16 [TestNG-tests-1] WARN  com.hackathonproject.pages.HospitalListingPage - Skipping card due to error: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: MicrosoftEdge=148.0.3967.96)
+Build info: version: '4.43.0', revision: 'dd0f534'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [dc4f6ea882c8112efaaeb8fae9fde90d, findChildElement {using=css selector, value=.line-1, id=f.54CB349B07943F11B8217596E24312F3.d.62E683C29873873F8A79E9B8457C513F.e.174}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 148.0.3967.96, fedcm:accounts: true, goog:processID: 18476, ms:edgeOptions: {debuggerAddress: localhost:49729}, msedge: {msedgedriverVersion: 148.0.3967.96 (9df8cc82dba1..., userDataDir: C:\Users\2486170\AppData\Lo...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49729/devtoo..., se:cdpVersion: 148.0.3967.96, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: dc4f6ea882c8112efaaeb8fae9fde90d
+2026-06-04 08:44:16 [TestNG-tests-1] WARN  com.hackathonproject.pages.HospitalListingPage - Skipping card due to error: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: MicrosoftEdge=148.0.3967.96)
+Build info: version: '4.43.0', revision: 'dd0f534'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [dc4f6ea882c8112efaaeb8fae9fde90d, getElementText {id=f.54CB349B07943F11B8217596E24312F3.d.62E683C29873873F8A79E9B8457C513F.e.221}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 148.0.3967.96, fedcm:accounts: true, goog:processID: 18476, ms:edgeOptions: {debuggerAddress: localhost:49729}, msedge: {msedgedriverVersion: 148.0.3967.96 (9df8cc82dba1..., userDataDir: C:\Users\2486170\AppData\Lo...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49729/devtoo..., se:cdpVersion: 148.0.3967.96, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[EdgeDriver: MicrosoftEdge on windows (dc4f6ea882c8112efaaeb8fae9fde90d)] -> css selector: .c-estb-card]
+Session ID: dc4f6ea882c8112efaaeb8fae9fde90d
+2026-06-04 08:44:16 [TestNG-tests-1] WARN  com.hackathonproject.pages.HospitalListingPage - Skipping card due to error: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: MicrosoftEdge=148.0.3967.96)
+Build info: version: '4.43.0', revision: 'dd0f534'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [dc4f6ea882c8112efaaeb8fae9fde90d, getElementText {id=f.54CB349B07943F11B8217596E24312F3.d.62E683C29873873F8A79E9B8457C513F.e.222}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 148.0.3967.96, fedcm:accounts: true, goog:processID: 18476, ms:edgeOptions: {debuggerAddress: localhost:49729}, msedge: {msedgedriverVersion: 148.0.3967.96 (9df8cc82dba1..., userDataDir: C:\Users\2486170\AppData\Lo...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49729/devtoo..., se:cdpVersion: 148.0.3967.96, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[EdgeDriver: MicrosoftEdge on windows (dc4f6ea882c8112efaaeb8fae9fde90d)] -> css selector: .c-estb-card]
+Session ID: dc4f6ea882c8112efaaeb8fae9fde90d
+2026-06-04 08:44:16 [TestNG-tests-1] WARN  com.hackathonproject.pages.HospitalListingPage - Skipping card due to error: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: MicrosoftEdge=148.0.3967.96)
+Build info: version: '4.43.0', revision: 'dd0f534'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [dc4f6ea882c8112efaaeb8fae9fde90d, getElementText {id=f.54CB349B07943F11B8217596E24312F3.d.62E683C29873873F8A79E9B8457C513F.e.223}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 148.0.3967.96, fedcm:accounts: true, goog:processID: 18476, ms:edgeOptions: {debuggerAddress: localhost:49729}, msedge: {msedgedriverVersion: 148.0.3967.96 (9df8cc82dba1..., userDataDir: C:\Users\2486170\AppData\Lo...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49729/devtoo..., se:cdpVersion: 148.0.3967.96, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[EdgeDriver: MicrosoftEdge on windows (dc4f6ea882c8112efaaeb8fae9fde90d)] -> css selector: .c-estb-card]
+Session ID: dc4f6ea882c8112efaaeb8fae9fde90d
+2026-06-04 08:44:16 [TestNG-tests-1] WARN  com.hackathonproject.pages.HospitalListingPage - Skipping card due to error: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: MicrosoftEdge=148.0.3967.96)
+Build info: version: '4.43.0', revision: 'dd0f534'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [dc4f6ea882c8112efaaeb8fae9fde90d, getElementText {id=f.54CB349B07943F11B8217596E24312F3.d.62E683C29873873F8A79E9B8457C513F.e.215}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 148.0.3967.96, fedcm:accounts: true, goog:processID: 18476, ms:edgeOptions: {debuggerAddress: localhost:49729}, msedge: {msedgedriverVersion: 148.0.3967.96 (9df8cc82dba1..., userDataDir: C:\Users\2486170\AppData\Lo...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49729/devtoo..., se:cdpVersion: 148.0.3967.96, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[EdgeDriver: MicrosoftEdge on windows (dc4f6ea882c8112efaaeb8fae9fde90d)] -> css selector: .c-estb-card]
+Session ID: dc4f6ea882c8112efaaeb8fae9fde90d
+2026-06-04 08:44:16 [TestNG-tests-2] INFO  com.hackathonproject.hooks.CucumberHooks - Scenario Status: FAILED
+2026-06-04 08:44:16 [TestNG-tests-2] ERROR com.hackathonproject.hooks.CucumberHooks - SCENARIO FAILED: Find Hospitals in Bangalore open 24x7 with parking and rating above 3.5
+2026-06-04 08:44:16 [TestNG-tests-2] ERROR com.hackathonproject.hooks.CucumberHooks - Could not attach screenshot: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: MicrosoftEdge=148.0.3967.96)
+Build info: version: '4.43.0', revision: 'dd0f534'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [dc4f6ea882c8112efaaeb8fae9fde90d, screenshot {}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 148.0.3967.96, fedcm:accounts: true, goog:processID: 18476, ms:edgeOptions: {debuggerAddress: localhost:49729}, msedge: {msedgedriverVersion: 148.0.3967.96 (9df8cc82dba1..., userDataDir: C:\Users\2486170\AppData\Lo...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49729/devtoo..., se:cdpVersion: 148.0.3967.96, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: dc4f6ea882c8112efaaeb8fae9fde90d
+2026-06-04 08:44:16 [TestNG-tests-2] INFO  com.hackathonproject.hooks.CucumberHooks - ---------- SCENARIO ENDED: Find Hospitals in Bangalore open 24x7 with parking and rating above 3.5 ----------
+2026-06-04 08:44:16 [TestNG-tests-1] WARN  com.hackathonproject.pages.HospitalListingPage - Skipping card due to error: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: MicrosoftEdge=148.0.3967.96)
+Build info: version: '4.43.0', revision: 'dd0f534'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [dc4f6ea882c8112efaaeb8fae9fde90d, getElementText {id=f.54CB349B07943F11B8217596E24312F3.d.62E683C29873873F8A79E9B8457C513F.e.224}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 148.0.3967.96, fedcm:accounts: true, goog:processID: 18476, ms:edgeOptions: {debuggerAddress: localhost:49729}, msedge: {msedgedriverVersion: 148.0.3967.96 (9df8cc82dba1..., userDataDir: C:\Users\2486170\AppData\Lo...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49729/devtoo..., se:cdpVersion: 148.0.3967.96, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[EdgeDriver: MicrosoftEdge on windows (dc4f6ea882c8112efaaeb8fae9fde90d)] -> css selector: .c-estb-card]
+Session ID: dc4f6ea882c8112efaaeb8fae9fde90d
+2026-06-04 08:44:16 [TestNG-tests-2] INFO  com.hackathonproject.base.BaseTest - Closing browser after scenario
+2026-06-04 08:44:16 [TestNG-tests-1] WARN  com.hackathonproject.pages.HospitalListingPage - Skipping card due to error: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: MicrosoftEdge=148.0.3967.96)
+Build info: version: '4.43.0', revision: 'dd0f534'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [dc4f6ea882c8112efaaeb8fae9fde90d, getElementText {id=f.54CB349B07943F11B8217596E24312F3.d.62E683C29873873F8A79E9B8457C513F.e.225}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 148.0.3967.96, fedcm:accounts: true, goog:processID: 18476, ms:edgeOptions: {debuggerAddress: localhost:49729}, msedge: {msedgedriverVersion: 148.0.3967.96 (9df8cc82dba1..., userDataDir: C:\Users\2486170\AppData\Lo...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49729/devtoo..., se:cdpVersion: 148.0.3967.96, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[EdgeDriver: MicrosoftEdge on windows (dc4f6ea882c8112efaaeb8fae9fde90d)] -> css selector: .c-estb-card]
+Session ID: dc4f6ea882c8112efaaeb8fae9fde90d
+2026-06-04 08:44:16 [TestNG-tests-1] WARN  com.hackathonproject.pages.HospitalListingPage - Skipping card due to error: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: MicrosoftEdge=148.0.3967.96)
+Build info: version: '4.43.0', revision: 'dd0f534'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [dc4f6ea882c8112efaaeb8fae9fde90d, getElementText {id=f.54CB349B07943F11B8217596E24312F3.d.62E683C29873873F8A79E9B8457C513F.e.226}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 148.0.3967.96, fedcm:accounts: true, goog:processID: 18476, ms:edgeOptions: {debuggerAddress: localhost:49729}, msedge: {msedgedriverVersion: 148.0.3967.96 (9df8cc82dba1..., userDataDir: C:\Users\2486170\AppData\Lo...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49729/devtoo..., se:cdpVersion: 148.0.3967.96, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[EdgeDriver: MicrosoftEdge on windows (dc4f6ea882c8112efaaeb8fae9fde90d)] -> css selector: .c-estb-card]
+Session ID: dc4f6ea882c8112efaaeb8fae9fde90d
+2026-06-04 08:44:19 [TestNG-tests-1] INFO  com.hackathonproject.hooks.CucumberHooks - Scenario Status: FAILED
+2026-06-04 08:44:19 [TestNG-tests-1] ERROR com.hackathonproject.hooks.CucumberHooks - SCENARIO FAILED: Find Hospitals in Bangalore open 24x7 with parking and rating above 3.5
+2026-06-04 08:44:19 [TestNG-tests-1] ERROR com.hackathonproject.hooks.CucumberHooks - Could not attach screenshot: Error communicating with the remote browser. It may have died.
+Build info: version: '4.43.0', revision: 'dd0f534'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [dc4f6ea882c8112efaaeb8fae9fde90d, screenshot []]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 148.0.3967.96, fedcm:accounts: true, goog:processID: 18476, ms:edgeOptions: {debuggerAddress: localhost:49729}, msedge: {msedgedriverVersion: 148.0.3967.96 (9df8cc82dba1..., userDataDir: C:\Users\2486170\AppData\Lo...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49729/devtoo..., se:cdpVersion: 148.0.3967.96, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: dc4f6ea882c8112efaaeb8fae9fde90d
+2026-06-04 08:44:19 [TestNG-tests-1] INFO  com.hackathonproject.hooks.CucumberHooks - ---------- SCENARIO ENDED: Find Hospitals in Bangalore open 24x7 with parking and rating above 3.5 ----------
+2026-06-04 08:44:19 [TestNG-tests-1] INFO  com.hackathonproject.base.BaseTest - Closing browser after scenario
+2026-06-04 08:44:20 [TestNG-tests-1] ERROR com.hackathonproject.listeners.TestListener - ✘ TEST FAILED: runScenario
+2026-06-04 08:44:20 [TestNG-tests-2] ERROR com.hackathonproject.listeners.TestListener - ✘ TEST FAILED: runScenario
+2026-06-04 08:44:20 [TestNG-tests-1] ERROR com.hackathonproject.listeners.TestListener - Reason: Error communicating with the remote browser. It may have died.
+Build info: version: '4.43.0', revision: 'dd0f534'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [dc4f6ea882c8112efaaeb8fae9fde90d, getWindowHandles []]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 148.0.3967.96, fedcm:accounts: true, goog:processID: 18476, ms:edgeOptions: {debuggerAddress: localhost:49729}, msedge: {msedgedriverVersion: 148.0.3967.96 (9df8cc82dba1..., userDataDir: C:\Users\2486170\AppData\Lo...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49729/devtoo..., se:cdpVersion: 148.0.3967.96, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: dc4f6ea882c8112efaaeb8fae9fde90d
+2026-06-04 08:44:20 [TestNG-tests-2] ERROR com.hackathonproject.listeners.TestListener - Reason: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: MicrosoftEdge=148.0.3967.96)
+Build info: version: '4.43.0', revision: 'dd0f534'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [dc4f6ea882c8112efaaeb8fae9fde90d, getCurrentWindowHandle {}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 148.0.3967.96, fedcm:accounts: true, goog:processID: 18476, ms:edgeOptions: {debuggerAddress: localhost:49729}, msedge: {msedgedriverVersion: 148.0.3967.96 (9df8cc82dba1..., userDataDir: C:\Users\2486170\AppData\Lo...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49729/devtoo..., se:cdpVersion: 148.0.3967.96, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: dc4f6ea882c8112efaaeb8fae9fde90d
+2026-06-04 08:44:20 [TestNG-tests-1] INFO  com.hackathonproject.listeners.TestListener - >>> TEST STARTED: runScenario
+2026-06-04 08:44:20 [TestNG-tests-2] INFO  com.hackathonproject.listeners.TestListener - >>> TEST STARTED: runScenario
+2026-06-04 08:44:20 [TestNG-tests-2] INFO  com.hackathonproject.base.BaseTest - Initializing Browser: edge
+2026-06-04 08:44:20 [TestNG-tests-1] INFO  com.hackathonproject.base.BaseTest - Initializing Browser: edge
+2026-06-04 08:44:25 [TestNG-tests-2] INFO  com.hackathonproject.base.BaseTest - Navigated to Practo home page
+2026-06-04 08:44:25 [TestNG-tests-2] INFO  com.hackathonproject.hooks.CucumberHooks - ---------- SCENARIO STARTED: Capture top cities from Diagnostics page on Practo website ----------
+2026-06-04 08:44:25 [TestNG-tests-2] INFO  com.hackathonproject.hooks.CucumberHooks - Tags: [@Smoke, @Navigation]
+2026-06-04 08:44:25 [TestNG-tests-1] INFO  com.hackathonproject.base.BaseTest - Navigated to Practo home page
+2026-06-04 08:44:25 [TestNG-tests-1] INFO  com.hackathonproject.hooks.CucumberHooks - ---------- SCENARIO STARTED: Capture top cities from Diagnostics page on Practo website ----------
+2026-06-04 08:44:25 [TestNG-tests-1] INFO  com.hackathonproject.hooks.CucumberHooks - Tags: [@Smoke, @Navigation]
+2026-06-04 08:44:28 [TestNG-tests-2] INFO  com.hackathonproject.steps.StepDefs - On Practo Home: Practo | Video Consultation with Doctors, Book Doctor Appointments, Order Medicine, Diagnostic Tests
+2026-06-04 08:44:28 [TestNG-tests-2] INFO  com.hackathonproject.steps.StepDefs - Clicking on Lab Tests
+2026-06-04 08:44:30 [TestNG-tests-1] INFO  com.hackathonproject.steps.StepDefs - On Practo Home: Blood Tests | Book Diagnostic Tests from Home at Best Prices | Practo
+2026-06-04 08:44:30 [TestNG-tests-1] INFO  com.hackathonproject.steps.StepDefs - Clicking on Lab Tests
+2026-06-04 08:44:31 [TestNG-tests-2] INFO  com.hackathonproject.steps.StepDefs - --- Top Diagnostic Cities ---
+2026-06-04 08:44:31 [TestNG-tests-2] INFO  com.hackathonproject.steps.StepDefs - Bangalore
+2026-06-04 08:44:31 [TestNG-tests-2] INFO  com.hackathonproject.steps.StepDefs - Delhi
+2026-06-04 08:44:31 [TestNG-tests-2] INFO  com.hackathonproject.steps.StepDefs - Mumbai
+2026-06-04 08:44:31 [TestNG-tests-2] INFO  com.hackathonproject.util.ScreenshotUtil - Screenshot saved: edge_2_top_cities_2026-06-04_08-44-31-397.png
+2026-06-04 08:44:31 [TestNG-tests-1] INFO  com.hackathonproject.steps.StepDefs - --- Top Diagnostic Cities ---
+2026-06-04 08:44:31 [TestNG-tests-1] INFO  com.hackathonproject.steps.StepDefs - Bangalore
+2026-06-04 08:44:31 [TestNG-tests-1] INFO  com.hackathonproject.steps.StepDefs - Delhi
+2026-06-04 08:44:31 [TestNG-tests-1] INFO  com.hackathonproject.steps.StepDefs - Mumbai
+2026-06-04 08:44:31 [TestNG-tests-1] INFO  com.hackathonproject.steps.StepDefs - Chennai
+2026-06-04 08:44:31 [TestNG-tests-1] INFO  com.hackathonproject.steps.StepDefs - Hyderabad
+2026-06-04 08:44:31 [TestNG-tests-1] INFO  com.hackathonproject.steps.StepDefs - Kolkata
+2026-06-04 08:44:31 [TestNG-tests-1] INFO  com.hackathonproject.steps.StepDefs - Pune
+2026-06-04 08:44:31 [TestNG-tests-1] INFO  com.hackathonproject.steps.StepDefs - Ahmedabad
+2026-06-04 08:44:31 [TestNG-tests-1] INFO  com.hackathonproject.util.ScreenshotUtil - Screenshot saved: edge_2_top_cities_2026-06-04_08-44-31-563.png
+2026-06-04 08:44:32 [TestNG-tests-1] INFO  com.hackathonproject.hooks.CucumberHooks - Scenario Status: FAILED
+2026-06-04 08:44:32 [TestNG-tests-1] ERROR com.hackathonproject.hooks.CucumberHooks - SCENARIO FAILED: Capture top cities from Diagnostics page on Practo website
+2026-06-04 08:44:32 [TestNG-tests-2] INFO  com.hackathonproject.util.ExcelWriter - Written 3 cities to Excel
+2026-06-04 08:44:32 [TestNG-tests-1] INFO  com.hackathonproject.hooks.CucumberHooks - Failure screenshot attached to report
+2026-06-04 08:44:32 [TestNG-tests-1] INFO  com.hackathonproject.hooks.CucumberHooks - ---------- SCENARIO ENDED: Capture top cities from Diagnostics page on Practo website ----------
+2026-06-04 08:44:32 [TestNG-tests-1] INFO  com.hackathonproject.base.BaseTest - Closing browser after scenario
+2026-06-04 08:44:32 [TestNG-tests-2] INFO  com.hackathonproject.util.ExcelWriter - Saved Excel: target/generatedData_edge.xlsx
+2026-06-04 08:44:32 [TestNG-tests-2] INFO  com.hackathonproject.hooks.CucumberHooks - Scenario Status: PASSED
+2026-06-04 08:44:32 [TestNG-tests-2] INFO  com.hackathonproject.hooks.CucumberHooks - ---------- SCENARIO ENDED: Capture top cities from Diagnostics page on Practo website ----------
+2026-06-04 08:44:32 [TestNG-tests-2] INFO  com.hackathonproject.base.BaseTest - Closing browser after scenario
+2026-06-04 08:44:35 [TestNG-tests-1] ERROR com.hackathonproject.listeners.TestListener - ✘ TEST FAILED: runScenario
+2026-06-04 08:44:35 [TestNG-tests-1] ERROR com.hackathonproject.listeners.TestListener - Reason: org.apache.poi.openxml4j.exceptions.InvalidOperationException: You can't add a part with a part name derived from another part ! [M1.11]
+2026-06-04 08:44:35 [TestNG-tests-1] INFO  com.hackathonproject.listeners.TestListener - >>> TEST STARTED: runScenario
+2026-06-04 08:44:35 [TestNG-tests-2] ERROR com.hackathonproject.listeners.TestListener - ✘ TEST FAILED: runScenario
+2026-06-04 08:44:35 [TestNG-tests-2] ERROR com.hackathonproject.listeners.TestListener - Reason: Timed out waiting for driver server to stop.
+Build info: version: '4.43.0', revision: 'dd0f534'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [0fa1bb9421258a62ed23c2cc24157739, quit {}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 148.0.3967.96, fedcm:accounts: true, goog:processID: 16684, ms:edgeOptions: {debuggerAddress: localhost:59304}, msedge: {msedgedriverVersion: 148.0.3967.96 (9df8cc82dba1..., userDataDir: C:\Users\2486170\AppData\Lo...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59304/devtoo..., se:cdpVersion: 148.0.3967.96, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+2026-06-04 08:44:35 [TestNG-tests-2] INFO  com.hackathonproject.listeners.TestListener - >>> TEST STARTED: runScenario
+2026-06-04 08:44:35 [TestNG-tests-1] INFO  com.hackathonproject.base.BaseTest - Initializing Browser: edge
+2026-06-04 08:44:35 [TestNG-tests-2] INFO  com.hackathonproject.base.BaseTest - Initializing Browser: edge
+2026-06-04 08:44:38 [TestNG-tests-2] INFO  com.hackathonproject.base.BaseTest - Navigated to Practo home page
+2026-06-04 08:44:38 [TestNG-tests-2] INFO  com.hackathonproject.hooks.CucumberHooks - ---------- SCENARIO STARTED: Verify submit button is disabled when Corporate Wellness form has invalid phone number ----------
+2026-06-04 08:44:38 [TestNG-tests-2] INFO  com.hackathonproject.hooks.CucumberHooks - Tags: [@Smoke, @FormValidation]
+2026-06-04 08:44:41 [TestNG-tests-1] INFO  com.hackathonproject.base.BaseTest - Navigated to Practo home page
+2026-06-04 08:44:41 [TestNG-tests-1] INFO  com.hackathonproject.hooks.CucumberHooks - ---------- SCENARIO STARTED: Verify submit button is disabled when Corporate Wellness form has invalid phone number ----------
+2026-06-04 08:44:41 [TestNG-tests-1] INFO  com.hackathonproject.hooks.CucumberHooks - Tags: [@Smoke, @FormValidation]
+2026-06-04 08:44:43 [TestNG-tests-2] INFO  com.hackathonproject.steps.StepDefs - On Practo Home: Practo | Video Consultation with Doctors, Book Doctor Appointments, Order Medicine, Diagnostic Tests
+2026-06-04 08:44:43 [TestNG-tests-2] INFO  com.hackathonproject.steps.StepDefs - Navigating to Corporate Wellness page
+2026-06-04 08:44:44 [TestNG-tests-2] INFO  com.hackathonproject.steps.StepDefs - Window title: Practo | Video Consultation with Doctors, Book Doctor Appointments, Order Medicine, Diagnostic Tests
+2026-06-04 08:44:44 [TestNG-tests-1] INFO  com.hackathonproject.steps.StepDefs - On Practo Home: Practo | Video Consultation with Doctors, Book Doctor Appointments, Order Medicine, Diagnostic Tests
+2026-06-04 08:44:44 [TestNG-tests-1] INFO  com.hackathonproject.steps.StepDefs - Navigating to Corporate Wellness page
+2026-06-04 08:44:45 [TestNG-tests-2] INFO  com.hackathonproject.steps.StepDefs - Window title: Practo | Video Consultation with Doctors, Book Doctor Appointments, Order Medicine, Diagnostic Tests
+2026-06-04 08:44:45 [TestNG-tests-2] INFO  com.hackathonproject.steps.StepDefs - Switched to: Practo | Video Consultation with Doctors, Book Doctor Appointments, Order Medicine, Diagnostic Tests
+2026-06-04 08:44:45 [TestNG-tests-2] INFO  com.hackathonproject.steps.StepDefs - Filling form - Name: Gopal, Org: Cognizant, Phone: 8970657, Email: gopal@cognizant.com
+2026-06-04 08:44:55 [TestNG-tests-2] INFO  com.hackathonproject.hooks.CucumberHooks - Scenario Status: FAILED
+2026-06-04 08:44:55 [TestNG-tests-2] ERROR com.hackathonproject.hooks.CucumberHooks - SCENARIO FAILED: Verify submit button is disabled when Corporate Wellness form has invalid phone number
+2026-06-04 08:44:56 [TestNG-tests-2] INFO  com.hackathonproject.hooks.CucumberHooks - Failure screenshot attached to report
+2026-06-04 08:44:56 [TestNG-tests-2] INFO  com.hackathonproject.hooks.CucumberHooks - ---------- SCENARIO ENDED: Verify submit button is disabled when Corporate Wellness form has invalid phone number ----------
+2026-06-04 08:44:56 [TestNG-tests-2] INFO  com.hackathonproject.base.BaseTest - Closing browser after scenario
+2026-06-04 08:44:59 [TestNG-tests-1] INFO  com.hackathonproject.hooks.CucumberHooks - Scenario Status: FAILED
+2026-06-04 08:44:59 [TestNG-tests-1] ERROR com.hackathonproject.hooks.CucumberHooks - SCENARIO FAILED: Verify submit button is disabled when Corporate Wellness form has invalid phone number
+2026-06-04 08:44:59 [TestNG-tests-1] ERROR com.hackathonproject.hooks.CucumberHooks - Could not attach screenshot: Error communicating with the remote browser. It may have died.
+Build info: version: '4.43.0', revision: 'dd0f534'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [7878c8f5f54c9fc004a371466dd33c86, screenshot []]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 148.0.3967.96, fedcm:accounts: true, goog:processID: 12996, ms:edgeOptions: {debuggerAddress: localhost:50689}, msedge: {msedgedriverVersion: 148.0.3967.96 (9df8cc82dba1..., userDataDir: C:\Users\2486170\AppData\Lo...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50689/devtoo..., se:cdpVersion: 148.0.3967.96, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 7878c8f5f54c9fc004a371466dd33c86
+2026-06-04 08:44:59 [TestNG-tests-1] INFO  com.hackathonproject.hooks.CucumberHooks - ---------- SCENARIO ENDED: Verify submit button is disabled when Corporate Wellness form has invalid phone number ----------
+2026-06-04 08:44:59 [TestNG-tests-1] INFO  com.hackathonproject.base.BaseTest - Closing browser after scenario
+2026-06-04 08:44:59 [TestNG-tests-2] ERROR com.hackathonproject.listeners.TestListener - ✘ TEST FAILED: runScenario
+2026-06-04 08:44:59 [TestNG-tests-2] ERROR com.hackathonproject.listeners.TestListener - Reason: no such element: Unable to locate element: {"method":"css selector","selector":"#name"}
+  (Session info: MicrosoftEdge=148.0.3967.96)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Build info: version: '4.43.0', revision: 'dd0f534'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [7878c8f5f54c9fc004a371466dd33c86, findElement {value=name, using=id}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 148.0.3967.96, fedcm:accounts: true, goog:processID: 12996, ms:edgeOptions: {debuggerAddress: localhost:50689}, msedge: {msedgedriverVersion: 148.0.3967.96 (9df8cc82dba1..., userDataDir: C:\Users\2486170\AppData\Lo...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50689/devtoo..., se:cdpVersion: 148.0.3967.96, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 7878c8f5f54c9fc004a371466dd33c86
+2026-06-04 08:44:59 [TestNG-tests-1] ERROR com.hackathonproject.listeners.TestListener - ✘ TEST FAILED: runScenario
+2026-06-04 08:44:59 [TestNG-tests-1] ERROR com.hackathonproject.listeners.TestListener - Reason: Error communicating with the remote browser. It may have died.
+Build info: version: '4.43.0', revision: 'dd0f534'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [7878c8f5f54c9fc004a371466dd33c86, getWindowHandles []]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 148.0.3967.96, fedcm:accounts: true, goog:processID: 12996, ms:edgeOptions: {debuggerAddress: localhost:50689}, msedge: {msedgedriverVersion: 148.0.3967.96 (9df8cc82dba1..., userDataDir: C:\Users\2486170\AppData\Lo...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50689/devtoo..., se:cdpVersion: 148.0.3967.96, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 7878c8f5f54c9fc004a371466dd33c86
+2026-06-04 08:44:59 [TestNG-tests-2] INFO  com.hackathonproject.hooks.CucumberHooks - ========== TEST EXECUTION COMPLETED ==========
+2026-06-04 08:44:59 [TestNG-tests-1] INFO  com.hackathonproject.hooks.CucumberHooks - ========== TEST EXECUTION COMPLETED ==========
+2026-06-04 08:45:00 [TestNG-tests-1] INFO  com.hackathonproject.listeners.TestListener - ========== TEST SUITE FINISHED: Edge Test ==========
+2026-06-04 08:45:00 [TestNG-tests-2] INFO  com.hackathonproject.listeners.TestListener - ========== TEST SUITE FINISHED: Chrome Test ==========
+2026-06-04 08:45:00 [TestNG-tests-1] INFO  com.hackathonproject.listeners.TestListener - Passed : 0
+2026-06-04 08:45:00 [TestNG-tests-2] INFO  com.hackathonproject.listeners.TestListener - Passed : 0
+2026-06-04 08:45:00 [TestNG-tests-1] INFO  com.hackathonproject.listeners.TestListener - Failed : 3
+2026-06-04 08:45:00 [TestNG-tests-2] INFO  com.hackathonproject.listeners.TestListener - Failed : 3
+2026-06-04 08:45:00 [TestNG-tests-1] INFO  com.hackathonproject.listeners.TestListener - Skipped: 0
+2026-06-04 08:45:00 [TestNG-tests-2] INFO  com.hackathonproject.listeners.TestListener - Skipped: 0
+2026-06-04 08:45:00 [TestNG-tests-1] WARN  com.hackathonproject.listeners.TestListener - Could not copy Cucumber report: target\cucumber-reports\cucumber_edge.html
+2026-06-04 08:45:00 [TestNG-tests-2] INFO  com.hackathonproject.listeners.TestListener - Cucumber report saved for browser: edge
+2026-06-04 08:49:08 [TestNG-tests-2] INFO  com.hackathonproject.listeners.TestListener - ========== TEST SUITE STARTED: Chrome Test ==========
+2026-06-04 08:49:08 [TestNG-tests-1] INFO  com.hackathonproject.listeners.TestListener - ========== TEST SUITE STARTED: Edge Test ==========
+2026-06-04 08:49:09 [TestNG-tests-2] INFO  com.hackathonproject.hooks.CucumberHooks - ========== TEST EXECUTION STARTED ==========
+2026-06-04 08:49:09 [TestNG-tests-1] INFO  com.hackathonproject.hooks.CucumberHooks - ========== TEST EXECUTION STARTED ==========
+2026-06-04 08:49:09 [TestNG-tests-1] INFO  com.hackathonproject.listeners.TestListener - >>> TEST STARTED: runScenario
+2026-06-04 08:49:09 [TestNG-tests-2] INFO  com.hackathonproject.listeners.TestListener - >>> TEST STARTED: runScenario
+2026-06-04 08:49:10 [TestNG-tests-1] INFO  com.hackathonproject.base.BaseTest - Initializing Browser: chrome on thread 35
+2026-06-04 08:49:10 [TestNG-tests-2] INFO  com.hackathonproject.base.BaseTest - Initializing Browser: chrome on thread 36
+2026-06-04 08:49:16 [TestNG-tests-2] INFO  com.hackathonproject.base.BaseTest - Browser launched successfully
+2026-06-04 08:49:16 [TestNG-tests-1] INFO  com.hackathonproject.base.BaseTest - Browser launched successfully
+2026-06-04 08:49:17 [TestNG-tests-1] INFO  com.hackathonproject.hooks.CucumberHooks - ---------- SCENARIO STARTED: Find Hospitals in Bangalore open 24x7 with parking and rating above 3.5 ----------
+2026-06-04 08:49:17 [TestNG-tests-1] INFO  com.hackathonproject.hooks.CucumberHooks - Tags: [@Smoke, @Search]
+2026-06-04 08:49:17 [TestNG-tests-2] INFO  com.hackathonproject.hooks.CucumberHooks - ---------- SCENARIO STARTED: Find Hospitals in Bangalore open 24x7 with parking and rating above 3.5 ----------
+2026-06-04 08:49:17 [TestNG-tests-2] INFO  com.hackathonproject.hooks.CucumberHooks - Tags: [@Smoke, @Search]
+2026-06-04 08:49:20 [TestNG-tests-2] INFO  com.hackathonproject.steps.StepDefs - On Practo Home: Practo | Video Consultation with Doctors, Book Doctor Appointments, Order Medicine, Diagnostic Tests
+2026-06-04 08:49:20 [TestNG-tests-2] INFO  com.hackathonproject.steps.StepDefs - Searching for service: Hospital in location: Bangalore
+2026-06-04 08:49:20 [TestNG-tests-1] INFO  com.hackathonproject.steps.StepDefs - On Practo Home: Practo | Video Consultation with Doctors, Book Doctor Appointments, Order Medicine, Diagnostic Tests
+2026-06-04 08:49:20 [TestNG-tests-1] INFO  com.hackathonproject.steps.StepDefs - Searching for service: Hospital in location: Bangalore
+2026-06-04 08:49:27 [TestNG-tests-2] INFO  com.hackathonproject.util.ScreenshotUtil - Screenshot saved: chrome_1_search_result_2026-06-04_08-49-27-091.png
+2026-06-04 08:49:29 [TestNG-tests-2] INFO  com.hackathonproject.pages.HospitalListingPage - Processing 10 hospitals...
+2026-06-04 08:49:29 [TestNG-tests-1] INFO  com.hackathonproject.util.ScreenshotUtil - Screenshot saved: chrome_1_search_result_2026-06-04_08-49-29-742.png
+2026-06-04 08:49:31 [TestNG-tests-1] INFO  com.hackathonproject.pages.HospitalListingPage - Processing 10 hospitals...
+2026-06-04 08:49:37 [TestNG-tests-1] INFO  com.hackathonproject.pages.HospitalListingPage - Found: Manipal Hospital Varthur Road (formerly Columbia Asia Hospital)
+2026-06-04 08:49:37 [TestNG-tests-2] INFO  com.hackathonproject.pages.HospitalListingPage - Found: Manipal Hospital Varthur Road (formerly Columbia Asia Hospital)
+2026-06-04 08:49:41 [TestNG-tests-1] INFO  com.hackathonproject.pages.HospitalListingPage - Found: Manipal Hospitals
+2026-06-04 08:49:41 [TestNG-tests-2] INFO  com.hackathonproject.pages.HospitalListingPage - Found: Manipal Hospitals
+2026-06-04 08:49:44 [TestNG-tests-2] INFO  com.hackathonproject.pages.HospitalListingPage - Found: Koshys Hospital
+2026-06-04 08:49:44 [TestNG-tests-1] INFO  com.hackathonproject.pages.HospitalListingPage - Found: Koshys Hospital
+2026-06-04 08:49:46 [TestNG-tests-2] INFO  com.hackathonproject.pages.HospitalListingPage - Found: Motherhood Hospital
+2026-06-04 08:49:47 [TestNG-tests-1] INFO  com.hackathonproject.pages.HospitalListingPage - Found: Motherhood Hospital
+2026-06-04 08:49:48 [TestNG-tests-2] INFO  com.hackathonproject.pages.HospitalListingPage - Found: Motherhood Hospital
+2026-06-04 08:49:49 [TestNG-tests-1] INFO  com.hackathonproject.pages.HospitalListingPage - Found: Motherhood Hospital
+2026-06-04 08:49:50 [TestNG-tests-2] INFO  com.hackathonproject.pages.HospitalListingPage - Found: Sagar Hospitals
+2026-06-04 08:49:51 [TestNG-tests-1] INFO  com.hackathonproject.pages.HospitalListingPage - Found: Sagar Hospitals
+2026-06-04 08:49:52 [TestNG-tests-2] INFO  com.hackathonproject.pages.HospitalListingPage - Found: Apollo Cradle & Children’s Hospital
+2026-06-04 08:49:54 [TestNG-tests-1] INFO  com.hackathonproject.pages.HospitalListingPage - Found: Apollo Cradle & Children’s Hospital
+2026-06-04 08:49:54 [TestNG-tests-2] INFO  com.hackathonproject.pages.HospitalListingPage - Found: Cloudnine Hospital - Old Airport Road
+2026-06-04 08:49:54 [TestNG-tests-2] INFO  com.hackathonproject.steps.StepDefs - --- Hospitals (Open 24x7, Parking, Rating > 3.5) ---
+2026-06-04 08:49:54 [TestNG-tests-2] INFO  com.hackathonproject.steps.StepDefs - Manipal Hospital Varthur Road (formerly Columbia Asia Hospital)
+2026-06-04 08:49:54 [TestNG-tests-2] INFO  com.hackathonproject.steps.StepDefs - Manipal Hospitals
+2026-06-04 08:49:54 [TestNG-tests-2] INFO  com.hackathonproject.steps.StepDefs - Koshys Hospital
+2026-06-04 08:49:54 [TestNG-tests-2] INFO  com.hackathonproject.steps.StepDefs - Motherhood Hospital
+2026-06-04 08:49:54 [TestNG-tests-2] INFO  com.hackathonproject.steps.StepDefs - Motherhood Hospital
+2026-06-04 08:49:54 [TestNG-tests-2] INFO  com.hackathonproject.steps.StepDefs - Sagar Hospitals
+2026-06-04 08:49:54 [TestNG-tests-2] INFO  com.hackathonproject.steps.StepDefs - Apollo Cradle & Children’s Hospital
+2026-06-04 08:49:54 [TestNG-tests-2] INFO  com.hackathonproject.steps.StepDefs - Cloudnine Hospital - Old Airport Road
+2026-06-04 08:49:55 [TestNG-tests-2] INFO  com.hackathonproject.util.ExcelWriter - Written 8 hospitals to Excel
+2026-06-04 08:49:55 [TestNG-tests-2] INFO  com.hackathonproject.util.ExcelWriter - Saved Excel: target/generatedData_chrome.xlsx
+2026-06-04 08:49:55 [TestNG-tests-2] INFO  com.hackathonproject.hooks.CucumberHooks - Scenario Status: PASSED
+2026-06-04 08:49:55 [TestNG-tests-2] INFO  com.hackathonproject.hooks.CucumberHooks - ---------- SCENARIO ENDED: Find Hospitals in Bangalore open 24x7 with parking and rating above 3.5 ----------
+2026-06-04 08:49:55 [TestNG-tests-2] INFO  com.hackathonproject.base.BaseTest - Closing browser on thread 36
+2026-06-04 08:49:57 [TestNG-tests-1] INFO  com.hackathonproject.pages.HospitalListingPage - Found: Cloudnine Hospital - Old Airport Road
+2026-06-04 08:49:57 [TestNG-tests-1] INFO  com.hackathonproject.steps.StepDefs - --- Hospitals (Open 24x7, Parking, Rating > 3.5) ---
+2026-06-04 08:49:57 [TestNG-tests-1] INFO  com.hackathonproject.steps.StepDefs - Manipal Hospital Varthur Road (formerly Columbia Asia Hospital)
+2026-06-04 08:49:57 [TestNG-tests-1] INFO  com.hackathonproject.steps.StepDefs - Manipal Hospitals
+2026-06-04 08:49:57 [TestNG-tests-1] INFO  com.hackathonproject.steps.StepDefs - Koshys Hospital
+2026-06-04 08:49:57 [TestNG-tests-1] INFO  com.hackathonproject.steps.StepDefs - Motherhood Hospital
+2026-06-04 08:49:57 [TestNG-tests-1] INFO  com.hackathonproject.steps.StepDefs - Motherhood Hospital
+2026-06-04 08:49:57 [TestNG-tests-1] INFO  com.hackathonproject.steps.StepDefs - Sagar Hospitals
+2026-06-04 08:49:57 [TestNG-tests-1] INFO  com.hackathonproject.steps.StepDefs - Apollo Cradle & Children’s Hospital
+2026-06-04 08:49:57 [TestNG-tests-1] INFO  com.hackathonproject.steps.StepDefs - Cloudnine Hospital - Old Airport Road
+2026-06-04 08:49:57 [TestNG-tests-1] INFO  com.hackathonproject.util.ExcelWriter - Written 8 hospitals to Excel
+2026-06-04 08:49:57 [TestNG-tests-1] INFO  com.hackathonproject.util.ExcelWriter - Saved Excel: target/generatedData_chrome.xlsx
+2026-06-04 08:49:57 [TestNG-tests-1] INFO  com.hackathonproject.hooks.CucumberHooks - Scenario Status: PASSED
+2026-06-04 08:49:57 [TestNG-tests-1] INFO  com.hackathonproject.hooks.CucumberHooks - ---------- SCENARIO ENDED: Find Hospitals in Bangalore open 24x7 with parking and rating above 3.5 ----------
+2026-06-04 08:49:57 [TestNG-tests-1] INFO  com.hackathonproject.base.BaseTest - Closing browser on thread 35
+2026-06-04 08:50:00 [TestNG-tests-2] INFO  com.hackathonproject.listeners.TestListener - ✔ TEST PASSED: runScenario
+2026-06-04 08:50:00 [TestNG-tests-2] INFO  com.hackathonproject.listeners.TestListener - >>> TEST STARTED: runScenario
+2026-06-04 08:50:00 [TestNG-tests-2] INFO  com.hackathonproject.base.BaseTest - Initializing Browser: chrome on thread 36
+2026-06-04 08:50:02 [TestNG-tests-1] INFO  com.hackathonproject.listeners.TestListener - ✔ TEST PASSED: runScenario
+2026-06-04 08:50:02 [TestNG-tests-1] INFO  com.hackathonproject.listeners.TestListener - >>> TEST STARTED: runScenario
+2026-06-04 08:50:02 [TestNG-tests-1] INFO  com.hackathonproject.base.BaseTest - Initializing Browser: chrome on thread 35
+2026-06-04 08:50:04 [TestNG-tests-2] INFO  com.hackathonproject.base.BaseTest - Browser launched successfully
+2026-06-04 08:50:04 [TestNG-tests-2] INFO  com.hackathonproject.hooks.CucumberHooks - ---------- SCENARIO STARTED: Capture top cities from Diagnostics page on Practo website ----------
+2026-06-04 08:50:04 [TestNG-tests-2] INFO  com.hackathonproject.hooks.CucumberHooks - Tags: [@Smoke, @Navigation]
+2026-06-04 08:50:07 [TestNG-tests-1] INFO  com.hackathonproject.base.BaseTest - Browser launched successfully
+2026-06-04 08:50:07 [TestNG-tests-1] INFO  com.hackathonproject.hooks.CucumberHooks - ---------- SCENARIO STARTED: Capture top cities from Diagnostics page on Practo website ----------
+2026-06-04 08:50:07 [TestNG-tests-1] INFO  com.hackathonproject.hooks.CucumberHooks - Tags: [@Smoke, @Navigation]
+2026-06-04 08:50:07 [TestNG-tests-2] INFO  com.hackathonproject.steps.StepDefs - On Practo Home: Practo | Video Consultation with Doctors, Book Doctor Appointments, Order Medicine, Diagnostic Tests
+2026-06-04 08:50:07 [TestNG-tests-2] INFO  com.hackathonproject.steps.StepDefs - Clicking on Lab Tests
+2026-06-04 08:50:10 [TestNG-tests-2] INFO  com.hackathonproject.steps.StepDefs - --- Top Diagnostic Cities ---
+2026-06-04 08:50:10 [TestNG-tests-2] INFO  com.hackathonproject.steps.StepDefs - Bangalore
+2026-06-04 08:50:10 [TestNG-tests-2] INFO  com.hackathonproject.steps.StepDefs - Delhi
+2026-06-04 08:50:10 [TestNG-tests-2] INFO  com.hackathonproject.steps.StepDefs - Mumbai
+2026-06-04 08:50:10 [TestNG-tests-2] INFO  com.hackathonproject.steps.StepDefs - Chennai
+2026-06-04 08:50:10 [TestNG-tests-2] INFO  com.hackathonproject.steps.StepDefs - Hyderabad
+2026-06-04 08:50:10 [TestNG-tests-2] INFO  com.hackathonproject.steps.StepDefs - Kolkata
+2026-06-04 08:50:10 [TestNG-tests-2] INFO  com.hackathonproject.steps.StepDefs - Pune
+2026-06-04 08:50:10 [TestNG-tests-2] INFO  com.hackathonproject.steps.StepDefs - Ahmedabad
+2026-06-04 08:50:10 [TestNG-tests-1] INFO  com.hackathonproject.steps.StepDefs - On Practo Home: Practo | Video Consultation with Doctors, Book Doctor Appointments, Order Medicine, Diagnostic Tests
+2026-06-04 08:50:10 [TestNG-tests-1] INFO  com.hackathonproject.steps.StepDefs - Clicking on Lab Tests
+2026-06-04 08:50:10 [TestNG-tests-2] INFO  com.hackathonproject.util.ScreenshotUtil - Screenshot saved: chrome_2_top_cities_2026-06-04_08-50-10-388.png
+2026-06-04 08:50:10 [TestNG-tests-2] INFO  com.hackathonproject.util.ExcelWriter - Written 8 cities to Excel
+2026-06-04 08:50:10 [TestNG-tests-2] INFO  com.hackathonproject.util.ExcelWriter - Saved Excel: target/generatedData_chrome.xlsx
+2026-06-04 08:50:10 [TestNG-tests-2] INFO  com.hackathonproject.hooks.CucumberHooks - Scenario Status: PASSED
+2026-06-04 08:50:10 [TestNG-tests-2] INFO  com.hackathonproject.hooks.CucumberHooks - ---------- SCENARIO ENDED: Capture top cities from Diagnostics page on Practo website ----------
+2026-06-04 08:50:10 [TestNG-tests-2] INFO  com.hackathonproject.base.BaseTest - Closing browser on thread 36
+2026-06-04 08:50:13 [TestNG-tests-1] INFO  com.hackathonproject.steps.StepDefs - --- Top Diagnostic Cities ---
+2026-06-04 08:50:13 [TestNG-tests-1] INFO  com.hackathonproject.steps.StepDefs - Bangalore
+2026-06-04 08:50:13 [TestNG-tests-1] INFO  com.hackathonproject.steps.StepDefs - Delhi
+2026-06-04 08:50:13 [TestNG-tests-1] INFO  com.hackathonproject.steps.StepDefs - Mumbai
+2026-06-04 08:50:13 [TestNG-tests-1] INFO  com.hackathonproject.steps.StepDefs - Chennai
+2026-06-04 08:50:13 [TestNG-tests-1] INFO  com.hackathonproject.steps.StepDefs - Hyderabad
+2026-06-04 08:50:13 [TestNG-tests-1] INFO  com.hackathonproject.steps.StepDefs - Kolkata
+2026-06-04 08:50:13 [TestNG-tests-1] INFO  com.hackathonproject.steps.StepDefs - Pune
+2026-06-04 08:50:13 [TestNG-tests-1] INFO  com.hackathonproject.steps.StepDefs - Ahmedabad
+2026-06-04 08:50:13 [TestNG-tests-1] INFO  com.hackathonproject.util.ScreenshotUtil - Screenshot saved: chrome_2_top_cities_2026-06-04_08-50-13-450.png
+2026-06-04 08:50:13 [TestNG-tests-1] INFO  com.hackathonproject.util.ExcelWriter - Written 8 cities to Excel
+2026-06-04 08:50:13 [TestNG-tests-1] INFO  com.hackathonproject.util.ExcelWriter - Saved Excel: target/generatedData_chrome.xlsx
+2026-06-04 08:50:13 [TestNG-tests-1] INFO  com.hackathonproject.hooks.CucumberHooks - Scenario Status: PASSED
+2026-06-04 08:50:13 [TestNG-tests-1] INFO  com.hackathonproject.hooks.CucumberHooks - ---------- SCENARIO ENDED: Capture top cities from Diagnostics page on Practo website ----------
+2026-06-04 08:50:13 [TestNG-tests-1] INFO  com.hackathonproject.base.BaseTest - Closing browser on thread 35
+2026-06-04 08:50:15 [TestNG-tests-2] INFO  com.hackathonproject.listeners.TestListener - ✔ TEST PASSED: runScenario
+2026-06-04 08:50:15 [TestNG-tests-2] INFO  com.hackathonproject.listeners.TestListener - >>> TEST STARTED: runScenario
+2026-06-04 08:50:15 [TestNG-tests-2] INFO  com.hackathonproject.base.BaseTest - Initializing Browser: chrome on thread 36
+2026-06-04 08:50:17 [TestNG-tests-1] INFO  com.hackathonproject.listeners.TestListener - ✔ TEST PASSED: runScenario
+2026-06-04 08:50:17 [TestNG-tests-1] INFO  com.hackathonproject.listeners.TestListener - >>> TEST STARTED: runScenario
+2026-06-04 08:50:17 [TestNG-tests-1] INFO  com.hackathonproject.base.BaseTest - Initializing Browser: chrome on thread 35
+2026-06-04 08:50:19 [TestNG-tests-2] INFO  com.hackathonproject.base.BaseTest - Browser launched successfully
+2026-06-04 08:50:19 [TestNG-tests-2] INFO  com.hackathonproject.hooks.CucumberHooks - ---------- SCENARIO STARTED: Verify submit button is disabled when Corporate Wellness form has invalid phone number ----------
+2026-06-04 08:50:19 [TestNG-tests-2] INFO  com.hackathonproject.hooks.CucumberHooks - Tags: [@Smoke, @FormValidation]
+2026-06-04 08:50:22 [TestNG-tests-1] INFO  com.hackathonproject.base.BaseTest - Browser launched successfully
+2026-06-04 08:50:22 [TestNG-tests-1] INFO  com.hackathonproject.hooks.CucumberHooks - ---------- SCENARIO STARTED: Verify submit button is disabled when Corporate Wellness form has invalid phone number ----------
+2026-06-04 08:50:22 [TestNG-tests-1] INFO  com.hackathonproject.hooks.CucumberHooks - Tags: [@Smoke, @FormValidation]
+2026-06-04 08:50:22 [TestNG-tests-2] INFO  com.hackathonproject.steps.StepDefs - On Practo Home: Practo | Video Consultation with Doctors, Book Doctor Appointments, Order Medicine, Diagnostic Tests
+2026-06-04 08:50:22 [TestNG-tests-2] INFO  com.hackathonproject.steps.StepDefs - Navigating to Corporate Wellness page
+2026-06-04 08:50:24 [TestNG-tests-2] INFO  com.hackathonproject.steps.StepDefs - Window title: Practo | Video Consultation with Doctors, Book Doctor Appointments, Order Medicine, Diagnostic Tests
+2026-06-04 08:50:25 [TestNG-tests-1] INFO  com.hackathonproject.steps.StepDefs - On Practo Home: Practo | Video Consultation with Doctors, Book Doctor Appointments, Order Medicine, Diagnostic Tests
+2026-06-04 08:50:25 [TestNG-tests-1] INFO  com.hackathonproject.steps.StepDefs - Navigating to Corporate Wellness page
+2026-06-04 08:50:26 [TestNG-tests-1] INFO  com.hackathonproject.steps.StepDefs - Window title: Practo | Video Consultation with Doctors, Book Doctor Appointments, Order Medicine, Diagnostic Tests
+2026-06-04 08:50:27 [TestNG-tests-2] INFO  com.hackathonproject.steps.StepDefs - Window title: 
+2026-06-04 08:50:27 [TestNG-tests-2] INFO  com.hackathonproject.steps.StepDefs - Switched to: Employee Health | Corporate Health & Wellness Plans | Practo
+2026-06-04 08:50:27 [TestNG-tests-2] INFO  com.hackathonproject.steps.StepDefs - Filling form - Name: Gopal, Org: Cognizant, Phone: 8970657, Email: gopal@cognizant.com
+2026-06-04 08:50:30 [TestNG-tests-2] INFO  com.hackathonproject.util.ScreenshotUtil - Screenshot saved: chrome_3_corporate_form_filled_2026-06-04_08-50-30-954.png
+2026-06-04 08:50:31 [TestNG-tests-2] INFO  com.hackathonproject.steps.StepDefs - Submit Button Enabled: false
+2026-06-04 08:50:31 [TestNG-tests-1] INFO  com.hackathonproject.steps.StepDefs - Window title: Employee Health | Corporate Health & Wellness Plans | Practo
+2026-06-04 08:50:31 [TestNG-tests-1] INFO  com.hackathonproject.steps.StepDefs - Switched to: Employee Health | Corporate Health & Wellness Plans | Practo
+2026-06-04 08:50:31 [TestNG-tests-1] INFO  com.hackathonproject.steps.StepDefs - Filling form - Name: Gopal, Org: Cognizant, Phone: 8970657, Email: gopal@cognizant.com
+2026-06-04 08:50:31 [TestNG-tests-2] INFO  com.hackathonproject.util.ScreenshotUtil - Screenshot saved: chrome_3_submit_button_state_2026-06-04_08-50-31-386.png
+2026-06-04 08:50:31 [TestNG-tests-2] INFO  com.hackathonproject.steps.StepDefs - Submit button disabled assertion passed — invalid phone correctly rejected
+2026-06-04 08:50:31 [TestNG-tests-2] INFO  com.hackathonproject.hooks.CucumberHooks - Scenario Status: PASSED
+2026-06-04 08:50:31 [TestNG-tests-2] INFO  com.hackathonproject.hooks.CucumberHooks - ---------- SCENARIO ENDED: Verify submit button is disabled when Corporate Wellness form has invalid phone number ----------
+2026-06-04 08:50:31 [TestNG-tests-2] INFO  com.hackathonproject.base.BaseTest - Closing browser on thread 36
+2026-06-04 08:50:33 [TestNG-tests-1] INFO  com.hackathonproject.util.ScreenshotUtil - Screenshot saved: chrome_3_corporate_form_filled_2026-06-04_08-50-33-380.png
+2026-06-04 08:50:33 [TestNG-tests-1] INFO  com.hackathonproject.steps.StepDefs - Submit Button Enabled: false
+2026-06-04 08:50:33 [TestNG-tests-1] INFO  com.hackathonproject.util.ScreenshotUtil - Screenshot saved: chrome_3_submit_button_state_2026-06-04_08-50-33-661.png
+2026-06-04 08:50:33 [TestNG-tests-1] INFO  com.hackathonproject.steps.StepDefs - Submit button disabled assertion passed — invalid phone correctly rejected
+2026-06-04 08:50:33 [TestNG-tests-1] INFO  com.hackathonproject.hooks.CucumberHooks - Scenario Status: PASSED
+2026-06-04 08:50:33 [TestNG-tests-1] INFO  com.hackathonproject.hooks.CucumberHooks - ---------- SCENARIO ENDED: Verify submit button is disabled when Corporate Wellness form has invalid phone number ----------
+2026-06-04 08:50:33 [TestNG-tests-1] INFO  com.hackathonproject.base.BaseTest - Closing browser on thread 35
+2026-06-04 08:50:36 [TestNG-tests-2] INFO  com.hackathonproject.listeners.TestListener - ✔ TEST PASSED: runScenario
+2026-06-04 08:50:36 [TestNG-tests-2] INFO  com.hackathonproject.hooks.CucumberHooks - ========== TEST EXECUTION COMPLETED ==========
+2026-06-04 08:50:36 [TestNG-tests-2] INFO  com.hackathonproject.listeners.TestListener - ========== TEST SUITE FINISHED: Chrome Test ==========
+2026-06-04 08:50:36 [TestNG-tests-2] INFO  com.hackathonproject.listeners.TestListener - Passed : 3
+2026-06-04 08:50:36 [TestNG-tests-2] INFO  com.hackathonproject.listeners.TestListener - Failed : 0
+2026-06-04 08:50:36 [TestNG-tests-2] INFO  com.hackathonproject.listeners.TestListener - Skipped: 0
+2026-06-04 08:50:36 [TestNG-tests-2] INFO  com.hackathonproject.listeners.TestListener - Cucumber report saved for browser: chrome
+2026-06-04 08:50:37 [TestNG-tests-1] INFO  com.hackathonproject.listeners.TestListener - ✔ TEST PASSED: runScenario
+2026-06-04 08:50:37 [TestNG-tests-1] INFO  com.hackathonproject.hooks.CucumberHooks - ========== TEST EXECUTION COMPLETED ==========
+2026-06-04 08:50:37 [TestNG-tests-1] INFO  com.hackathonproject.listeners.TestListener - ========== TEST SUITE FINISHED: Edge Test ==========
+2026-06-04 08:50:37 [TestNG-tests-1] INFO  com.hackathonproject.listeners.TestListener - Passed : 3
+2026-06-04 08:50:37 [TestNG-tests-1] INFO  com.hackathonproject.listeners.TestListener - Failed : 0
+2026-06-04 08:50:37 [TestNG-tests-1] INFO  com.hackathonproject.listeners.TestListener - Skipped: 0
+2026-06-04 08:50:37 [TestNG-tests-1] INFO  com.hackathonproject.listeners.TestListener - Cucumber report saved for browser: chrome
+2026-06-04 08:50:59 [TestNG-tests-2] INFO  com.hackathonproject.listeners.TestListener - ========== TEST SUITE STARTED: Chrome Test ==========
+2026-06-04 08:50:59 [TestNG-tests-1] INFO  com.hackathonproject.listeners.TestListener - ========== TEST SUITE STARTED: Edge Test ==========
+2026-06-04 08:51:00 [TestNG-tests-2] INFO  com.hackathonproject.hooks.CucumberHooks - ========== TEST EXECUTION STARTED ==========
+2026-06-04 08:51:00 [TestNG-tests-1] INFO  com.hackathonproject.hooks.CucumberHooks - ========== TEST EXECUTION STARTED ==========
+2026-06-04 08:51:00 [TestNG-tests-2] INFO  com.hackathonproject.listeners.TestListener - >>> TEST STARTED: runScenario
+2026-06-04 08:51:00 [TestNG-tests-1] INFO  com.hackathonproject.listeners.TestListener - >>> TEST STARTED: runScenario
+2026-06-04 08:51:00 [TestNG-tests-1] ERROR com.hackathonproject.listeners.TestListener - ✘ TEST FAILED: runScenario
+2026-06-04 08:51:00 [TestNG-tests-1] ERROR com.hackathonproject.listeners.TestListener - Reason: null
+2026-06-04 08:51:00 [TestNG-tests-1] INFO  com.hackathonproject.listeners.TestListener - >>> TEST STARTED: runScenario
+2026-06-04 08:51:00 [TestNG-tests-1] INFO  com.hackathonproject.base.BaseTest - Initializing Browser: edge on thread 35
+2026-06-04 08:51:00 [TestNG-tests-2] INFO  com.hackathonproject.base.BaseTest - Initializing Browser: edge on thread 36
+2026-06-04 08:51:06 [TestNG-tests-1] INFO  com.hackathonproject.base.BaseTest - Browser launched successfully
+2026-06-04 08:51:06 [TestNG-tests-2] INFO  com.hackathonproject.base.BaseTest - Browser launched successfully
+2026-06-04 08:51:06 [TestNG-tests-2] INFO  com.hackathonproject.hooks.CucumberHooks - ---------- SCENARIO STARTED: Find Hospitals in Bangalore open 24x7 with parking and rating above 3.5 ----------
+2026-06-04 08:51:06 [TestNG-tests-2] INFO  com.hackathonproject.hooks.CucumberHooks - Tags: [@Smoke, @Search]
+2026-06-04 08:51:06 [TestNG-tests-1] INFO  com.hackathonproject.hooks.CucumberHooks - ---------- SCENARIO STARTED: Capture top cities from Diagnostics page on Practo website ----------
+2026-06-04 08:51:06 [TestNG-tests-1] INFO  com.hackathonproject.hooks.CucumberHooks - Tags: [@Smoke, @Navigation]
+2026-06-04 08:51:09 [TestNG-tests-1] INFO  com.hackathonproject.steps.StepDefs - On Practo Home: Practo | Video Consultation with Doctors, Book Doctor Appointments, Order Medicine, Diagnostic Tests
+2026-06-04 08:51:09 [TestNG-tests-1] INFO  com.hackathonproject.steps.StepDefs - Clicking on Lab Tests
+2026-06-04 08:51:09 [TestNG-tests-2] INFO  com.hackathonproject.steps.StepDefs - On Practo Home: Practo | Video Consultation with Doctors, Book Doctor Appointments, Order Medicine, Diagnostic Tests
+2026-06-04 08:51:09 [TestNG-tests-2] INFO  com.hackathonproject.steps.StepDefs - Searching for service: Hospital in location: Bangalore
+2026-06-04 08:51:14 [TestNG-tests-1] INFO  com.hackathonproject.steps.StepDefs - --- Top Diagnostic Cities ---
+2026-06-04 08:51:14 [TestNG-tests-1] INFO  com.hackathonproject.steps.StepDefs - Bangalore
+2026-06-04 08:51:14 [TestNG-tests-1] INFO  com.hackathonproject.util.ScreenshotUtil - Screenshot saved: edge_2_top_cities_2026-06-04_08-51-14-656.png
+2026-06-04 08:51:15 [TestNG-tests-1] INFO  com.hackathonproject.util.ExcelWriter - Written 1 cities to Excel
+2026-06-04 08:51:15 [TestNG-tests-1] INFO  com.hackathonproject.util.ExcelWriter - Saved Excel: target/generatedData_edge.xlsx
+2026-06-04 08:51:15 [TestNG-tests-1] INFO  com.hackathonproject.hooks.CucumberHooks - Scenario Status: FAILED
+2026-06-04 08:51:15 [TestNG-tests-1] ERROR com.hackathonproject.hooks.CucumberHooks - SCENARIO FAILED: Capture top cities from Diagnostics page on Practo website
+2026-06-04 08:51:16 [TestNG-tests-1] INFO  com.hackathonproject.hooks.CucumberHooks - Failure screenshot attached to report
+2026-06-04 08:51:16 [TestNG-tests-1] INFO  com.hackathonproject.hooks.CucumberHooks - ---------- SCENARIO ENDED: Capture top cities from Diagnostics page on Practo website ----------
+2026-06-04 08:51:16 [TestNG-tests-1] INFO  com.hackathonproject.base.BaseTest - Closing browser on thread 35
+2026-06-04 08:51:18 [TestNG-tests-2] INFO  com.hackathonproject.util.ScreenshotUtil - Screenshot saved: edge_1_search_result_2026-06-04_08-51-18-072.png
+2026-06-04 08:51:20 [TestNG-tests-2] INFO  com.hackathonproject.pages.HospitalListingPage - Processing 10 hospitals...
+2026-06-04 08:51:20 [TestNG-tests-1] ERROR com.hackathonproject.listeners.TestListener - ✘ TEST FAILED: runScenario
+2026-06-04 08:51:20 [TestNG-tests-1] ERROR com.hackathonproject.listeners.TestListener - Reason: The following asserts failed:
+	Mumbai should be in top cities expected [true] but found [false],
+	Delhi should be in top cities expected [true] but found [false]
+2026-06-04 08:51:20 [TestNG-tests-1] INFO  com.hackathonproject.listeners.TestListener - >>> TEST STARTED: runScenario
+2026-06-04 08:51:20 [TestNG-tests-1] INFO  com.hackathonproject.base.BaseTest - Initializing Browser: edge on thread 35
+2026-06-04 08:51:23 [TestNG-tests-2] INFO  com.hackathonproject.pages.HospitalListingPage - Found: Manipal Hospital Varthur Road (formerly Columbia Asia Hospital)
+2026-06-04 08:51:25 [TestNG-tests-1] INFO  com.hackathonproject.base.BaseTest - Browser launched successfully
+2026-06-04 08:51:25 [TestNG-tests-1] INFO  com.hackathonproject.hooks.CucumberHooks - ---------- SCENARIO STARTED: Verify submit button is disabled when Corporate Wellness form has invalid phone number ----------
+2026-06-04 08:51:25 [TestNG-tests-1] INFO  com.hackathonproject.hooks.CucumberHooks - Tags: [@Smoke, @FormValidation]
+2026-06-04 08:51:26 [TestNG-tests-2] INFO  com.hackathonproject.pages.HospitalListingPage - Found: Manipal Hospitals
+2026-06-04 08:51:27 [TestNG-tests-2] INFO  com.hackathonproject.pages.HospitalListingPage - Found: Koshys Hospital
+2026-06-04 08:51:28 [TestNG-tests-1] INFO  com.hackathonproject.steps.StepDefs - On Practo Home: Practo | Video Consultation with Doctors, Book Doctor Appointments, Order Medicine, Diagnostic Tests
+2026-06-04 08:51:28 [TestNG-tests-1] INFO  com.hackathonproject.steps.StepDefs - Navigating to Corporate Wellness page
+2026-06-04 08:51:29 [TestNG-tests-2] INFO  com.hackathonproject.pages.HospitalListingPage - Found: Motherhood Hospital
+2026-06-04 08:51:29 [TestNG-tests-1] INFO  com.hackathonproject.steps.StepDefs - Window title: Practo | Video Consultation with Doctors, Book Doctor Appointments, Order Medicine, Diagnostic Tests
+2026-06-04 08:51:31 [TestNG-tests-2] INFO  com.hackathonproject.pages.HospitalListingPage - Found: Motherhood Hospital
+2026-06-04 08:51:33 [TestNG-tests-1] INFO  com.hackathonproject.steps.StepDefs - Window title: Employee Health | Corporate Health & Wellness Plans | Practo
+2026-06-04 08:51:33 [TestNG-tests-1] INFO  com.hackathonproject.steps.StepDefs - Switched to: Employee Health | Corporate Health & Wellness Plans | Practo
+2026-06-04 08:51:33 [TestNG-tests-1] INFO  com.hackathonproject.steps.StepDefs - Filling form - Name: Gopal, Org: Cognizant, Phone: 8970657, Email: gopal@cognizant.com
+2026-06-04 08:51:33 [TestNG-tests-2] INFO  com.hackathonproject.pages.HospitalListingPage - Found: Sagar Hospitals
+2026-06-04 08:51:35 [TestNG-tests-1] INFO  com.hackathonproject.util.ScreenshotUtil - Screenshot saved: edge_3_corporate_form_filled_2026-06-04_08-51-35-648.png
+2026-06-04 08:51:35 [TestNG-tests-2] INFO  com.hackathonproject.pages.HospitalListingPage - Found: Apollo Cradle & Children’s Hospital
+2026-06-04 08:51:35 [TestNG-tests-1] INFO  com.hackathonproject.steps.StepDefs - Submit Button Enabled: false
+2026-06-04 08:51:36 [TestNG-tests-1] INFO  com.hackathonproject.util.ScreenshotUtil - Screenshot saved: edge_3_submit_button_state_2026-06-04_08-51-36-089.png
+2026-06-04 08:51:36 [TestNG-tests-1] INFO  com.hackathonproject.steps.StepDefs - Submit button disabled assertion passed — invalid phone correctly rejected
+2026-06-04 08:51:36 [TestNG-tests-1] INFO  com.hackathonproject.hooks.CucumberHooks - Scenario Status: PASSED
+2026-06-04 08:51:36 [TestNG-tests-1] INFO  com.hackathonproject.hooks.CucumberHooks - ---------- SCENARIO ENDED: Verify submit button is disabled when Corporate Wellness form has invalid phone number ----------
+2026-06-04 08:51:36 [TestNG-tests-1] INFO  com.hackathonproject.base.BaseTest - Closing browser on thread 35
+2026-06-04 08:51:37 [TestNG-tests-2] INFO  com.hackathonproject.pages.HospitalListingPage - Found: Cloudnine Hospital - Old Airport Road
+2026-06-04 08:51:37 [TestNG-tests-2] INFO  com.hackathonproject.steps.StepDefs - --- Hospitals (Open 24x7, Parking, Rating > 3.5) ---
+2026-06-04 08:51:37 [TestNG-tests-2] INFO  com.hackathonproject.steps.StepDefs - Manipal Hospital Varthur Road (formerly Columbia Asia Hospital)
+2026-06-04 08:51:37 [TestNG-tests-2] INFO  com.hackathonproject.steps.StepDefs - Manipal Hospitals
+2026-06-04 08:51:37 [TestNG-tests-2] INFO  com.hackathonproject.steps.StepDefs - Koshys Hospital
+2026-06-04 08:51:37 [TestNG-tests-2] INFO  com.hackathonproject.steps.StepDefs - Motherhood Hospital
+2026-06-04 08:51:37 [TestNG-tests-2] INFO  com.hackathonproject.steps.StepDefs - Motherhood Hospital
+2026-06-04 08:51:37 [TestNG-tests-2] INFO  com.hackathonproject.steps.StepDefs - Sagar Hospitals
+2026-06-04 08:51:37 [TestNG-tests-2] INFO  com.hackathonproject.steps.StepDefs - Apollo Cradle & Children’s Hospital
+2026-06-04 08:51:37 [TestNG-tests-2] INFO  com.hackathonproject.steps.StepDefs - Cloudnine Hospital - Old Airport Road
+2026-06-04 08:51:37 [TestNG-tests-2] INFO  com.hackathonproject.util.ExcelWriter - Written 8 hospitals to Excel
+2026-06-04 08:51:37 [TestNG-tests-2] INFO  com.hackathonproject.util.ExcelWriter - Saved Excel: target/generatedData_edge.xlsx
+2026-06-04 08:51:37 [TestNG-tests-2] INFO  com.hackathonproject.hooks.CucumberHooks - Scenario Status: PASSED
+2026-06-04 08:51:37 [TestNG-tests-2] INFO  com.hackathonproject.hooks.CucumberHooks - ---------- SCENARIO ENDED: Find Hospitals in Bangalore open 24x7 with parking and rating above 3.5 ----------
+2026-06-04 08:51:37 [TestNG-tests-2] INFO  com.hackathonproject.base.BaseTest - Closing browser on thread 36
+2026-06-04 08:51:39 [TestNG-tests-1] INFO  com.hackathonproject.listeners.TestListener - ✔ TEST PASSED: runScenario
+2026-06-04 08:51:39 [TestNG-tests-1] INFO  com.hackathonproject.hooks.CucumberHooks - ========== TEST EXECUTION COMPLETED ==========
+2026-06-04 08:51:40 [TestNG-tests-1] INFO  com.hackathonproject.listeners.TestListener - ========== TEST SUITE FINISHED: Edge Test ==========
+2026-06-04 08:51:40 [TestNG-tests-1] INFO  com.hackathonproject.listeners.TestListener - Passed : 1
+2026-06-04 08:51:40 [TestNG-tests-1] INFO  com.hackathonproject.listeners.TestListener - Failed : 2
+2026-06-04 08:51:40 [TestNG-tests-1] INFO  com.hackathonproject.listeners.TestListener - Skipped: 0
+2026-06-04 08:51:40 [TestNG-tests-1] INFO  com.hackathonproject.listeners.TestListener - Cucumber report saved for browser: edge
+2026-06-04 08:51:41 [TestNG-tests-2] INFO  com.hackathonproject.listeners.TestListener - ✔ TEST PASSED: runScenario
+2026-06-04 08:51:41 [TestNG-tests-2] INFO  com.hackathonproject.listeners.TestListener - >>> TEST STARTED: runScenario
+2026-06-04 08:51:41 [TestNG-tests-2] INFO  com.hackathonproject.base.BaseTest - Initializing Browser: edge on thread 36
+2026-06-04 08:51:44 [TestNG-tests-2] INFO  com.hackathonproject.base.BaseTest - Browser launched successfully
+2026-06-04 08:51:44 [TestNG-tests-2] INFO  com.hackathonproject.hooks.CucumberHooks - ---------- SCENARIO STARTED: Capture top cities from Diagnostics page on Practo website ----------
+2026-06-04 08:51:44 [TestNG-tests-2] INFO  com.hackathonproject.hooks.CucumberHooks - Tags: [@Smoke, @Navigation]
+2026-06-04 08:51:47 [TestNG-tests-2] INFO  com.hackathonproject.steps.StepDefs - On Practo Home: Practo | Video Consultation with Doctors, Book Doctor Appointments, Order Medicine, Diagnostic Tests
+2026-06-04 08:51:47 [TestNG-tests-2] INFO  com.hackathonproject.steps.StepDefs - Clicking on Lab Tests
+2026-06-04 08:51:52 [TestNG-tests-2] INFO  com.hackathonproject.steps.StepDefs - --- Top Diagnostic Cities ---
+2026-06-04 08:51:52 [TestNG-tests-2] INFO  com.hackathonproject.steps.StepDefs - Bangalore
+2026-06-04 08:51:52 [TestNG-tests-2] INFO  com.hackathonproject.steps.StepDefs - Delhi
+2026-06-04 08:51:52 [TestNG-tests-2] INFO  com.hackathonproject.steps.StepDefs - Mumbai
+2026-06-04 08:51:52 [TestNG-tests-2] INFO  com.hackathonproject.steps.StepDefs - Chennai
+2026-06-04 08:51:52 [TestNG-tests-2] INFO  com.hackathonproject.steps.StepDefs - Hyderabad
+2026-06-04 08:51:52 [TestNG-tests-2] INFO  com.hackathonproject.steps.StepDefs - Kolkata
+2026-06-04 08:51:52 [TestNG-tests-2] INFO  com.hackathonproject.steps.StepDefs - Pune
+2026-06-04 08:51:52 [TestNG-tests-2] INFO  com.hackathonproject.steps.StepDefs - Ahmedabad
+2026-06-04 08:51:52 [TestNG-tests-2] INFO  com.hackathonproject.util.ScreenshotUtil - Screenshot saved: edge_2_top_cities_2026-06-04_08-51-52-620.png
+2026-06-04 08:51:52 [TestNG-tests-2] INFO  com.hackathonproject.util.ExcelWriter - Written 8 cities to Excel
+2026-06-04 08:51:52 [TestNG-tests-2] INFO  com.hackathonproject.util.ExcelWriter - Saved Excel: target/generatedData_edge.xlsx
+2026-06-04 08:51:52 [TestNG-tests-2] INFO  com.hackathonproject.hooks.CucumberHooks - Scenario Status: PASSED
+2026-06-04 08:51:52 [TestNG-tests-2] INFO  com.hackathonproject.hooks.CucumberHooks - ---------- SCENARIO ENDED: Capture top cities from Diagnostics page on Practo website ----------
+2026-06-04 08:51:52 [TestNG-tests-2] INFO  com.hackathonproject.base.BaseTest - Closing browser on thread 36
+2026-06-04 08:51:55 [TestNG-tests-2] INFO  com.hackathonproject.listeners.TestListener - ✔ TEST PASSED: runScenario
+2026-06-04 08:51:55 [TestNG-tests-2] INFO  com.hackathonproject.listeners.TestListener - >>> TEST STARTED: runScenario
+2026-06-04 08:51:55 [TestNG-tests-2] INFO  com.hackathonproject.base.BaseTest - Initializing Browser: edge on thread 36
+2026-06-04 08:52:00 [TestNG-tests-2] INFO  com.hackathonproject.base.BaseTest - Browser launched successfully
+2026-06-04 08:52:00 [TestNG-tests-2] INFO  com.hackathonproject.hooks.CucumberHooks - ---------- SCENARIO STARTED: Verify submit button is disabled when Corporate Wellness form has invalid phone number ----------
+2026-06-04 08:52:00 [TestNG-tests-2] INFO  com.hackathonproject.hooks.CucumberHooks - Tags: [@Smoke, @FormValidation]
+2026-06-04 08:52:02 [TestNG-tests-2] INFO  com.hackathonproject.steps.StepDefs - On Practo Home: Practo | Video Consultation with Doctors, Book Doctor Appointments, Order Medicine, Diagnostic Tests
+2026-06-04 08:52:02 [TestNG-tests-2] INFO  com.hackathonproject.steps.StepDefs - Navigating to Corporate Wellness page
+2026-06-04 08:52:04 [TestNG-tests-2] INFO  com.hackathonproject.steps.StepDefs - Window title: Practo | Video Consultation with Doctors, Book Doctor Appointments, Order Medicine, Diagnostic Tests
+2026-06-04 08:52:07 [TestNG-tests-2] INFO  com.hackathonproject.steps.StepDefs - Window title: Employee Health | Corporate Health & Wellness Plans | Practo
+2026-06-04 08:52:07 [TestNG-tests-2] INFO  com.hackathonproject.steps.StepDefs - Switched to: Employee Health | Corporate Health & Wellness Plans | Practo
+2026-06-04 08:52:07 [TestNG-tests-2] INFO  com.hackathonproject.steps.StepDefs - Filling form - Name: Gopal, Org: Cognizant, Phone: 8970657, Email: gopal@cognizant.com
+2026-06-04 08:52:09 [TestNG-tests-2] INFO  com.hackathonproject.util.ScreenshotUtil - Screenshot saved: edge_3_corporate_form_filled_2026-06-04_08-52-09-701.png
+2026-06-04 08:52:09 [TestNG-tests-2] INFO  com.hackathonproject.steps.StepDefs - Submit Button Enabled: false
+2026-06-04 08:52:10 [TestNG-tests-2] INFO  com.hackathonproject.util.ScreenshotUtil - Screenshot saved: edge_3_submit_button_state_2026-06-04_08-52-10-148.png
+2026-06-04 08:52:10 [TestNG-tests-2] INFO  com.hackathonproject.steps.StepDefs - Submit button disabled assertion passed — invalid phone correctly rejected
+2026-06-04 08:52:10 [TestNG-tests-2] INFO  com.hackathonproject.hooks.CucumberHooks - Scenario Status: PASSED
+2026-06-04 08:52:10 [TestNG-tests-2] INFO  com.hackathonproject.hooks.CucumberHooks - ---------- SCENARIO ENDED: Verify submit button is disabled when Corporate Wellness form has invalid phone number ----------
+2026-06-04 08:52:10 [TestNG-tests-2] INFO  com.hackathonproject.base.BaseTest - Closing browser on thread 36
+2026-06-04 08:52:14 [TestNG-tests-2] INFO  com.hackathonproject.listeners.TestListener - ✔ TEST PASSED: runScenario
+2026-06-04 08:52:14 [TestNG-tests-2] INFO  com.hackathonproject.hooks.CucumberHooks - ========== TEST EXECUTION COMPLETED ==========
+2026-06-04 08:52:14 [TestNG-tests-2] INFO  com.hackathonproject.listeners.TestListener - ========== TEST SUITE FINISHED: Chrome Test ==========
+2026-06-04 08:52:14 [TestNG-tests-2] INFO  com.hackathonproject.listeners.TestListener - Passed : 3
+2026-06-04 08:52:14 [TestNG-tests-2] INFO  com.hackathonproject.listeners.TestListener - Failed : 0
+2026-06-04 08:52:14 [TestNG-tests-2] INFO  com.hackathonproject.listeners.TestListener - Skipped: 0
+2026-06-04 08:52:14 [TestNG-tests-2] INFO  com.hackathonproject.listeners.TestListener - Cucumber report saved for browser: edge
+2026-06-04 08:53:49 [TestNG-tests-2] INFO  com.hackathonproject.listeners.TestListener - ========== TEST SUITE STARTED: Chrome Test ==========
+2026-06-04 08:53:49 [TestNG-tests-1] INFO  com.hackathonproject.listeners.TestListener - ========== TEST SUITE STARTED: Edge Test ==========
+2026-06-04 08:53:50 [TestNG-tests-1] INFO  com.hackathonproject.hooks.CucumberHooks - ========== TEST EXECUTION STARTED ==========
+2026-06-04 08:53:50 [TestNG-tests-2] INFO  com.hackathonproject.hooks.CucumberHooks - ========== TEST EXECUTION STARTED ==========
+2026-06-04 08:53:50 [TestNG-tests-2] INFO  com.hackathonproject.listeners.TestListener - >>> TEST STARTED: runScenario
+2026-06-04 08:53:50 [TestNG-tests-1] INFO  com.hackathonproject.listeners.TestListener - >>> TEST STARTED: runScenario
+2026-06-04 08:53:50 [TestNG-tests-2] INFO  com.hackathonproject.base.BaseTest - Initializing Browser: edge on thread 36
+2026-06-04 08:53:50 [TestNG-tests-1] INFO  com.hackathonproject.base.BaseTest - Initializing Browser: edge on thread 35
+2026-06-04 08:53:57 [TestNG-tests-1] INFO  com.hackathonproject.base.BaseTest - Browser launched successfully
+2026-06-04 08:53:57 [TestNG-tests-2] INFO  com.hackathonproject.base.BaseTest - Browser launched successfully
+2026-06-04 08:53:57 [TestNG-tests-1] INFO  com.hackathonproject.hooks.CucumberHooks - ---------- SCENARIO STARTED: Find Hospitals in Bangalore open 24x7 with parking and rating above 3.5 ----------
+2026-06-04 08:53:57 [TestNG-tests-2] INFO  com.hackathonproject.hooks.CucumberHooks - ---------- SCENARIO STARTED: Find Hospitals in Bangalore open 24x7 with parking and rating above 3.5 ----------
+2026-06-04 08:53:57 [TestNG-tests-2] INFO  com.hackathonproject.hooks.CucumberHooks - Tags: [@Smoke, @Search]
+2026-06-04 08:53:57 [TestNG-tests-1] INFO  com.hackathonproject.hooks.CucumberHooks - Tags: [@Smoke, @Search]
+2026-06-04 08:54:00 [TestNG-tests-2] INFO  com.hackathonproject.steps.StepDefs - On Practo Home: Practo | Video Consultation with Doctors, Book Doctor Appointments, Order Medicine, Diagnostic Tests
+2026-06-04 08:54:00 [TestNG-tests-2] INFO  com.hackathonproject.steps.StepDefs - Searching for service: Hospital in location: Bangalore
+2026-06-04 08:54:00 [TestNG-tests-1] INFO  com.hackathonproject.steps.StepDefs - On Practo Home: Practo | Video Consultation with Doctors, Book Doctor Appointments, Order Medicine, Diagnostic Tests
+2026-06-04 08:54:00 [TestNG-tests-1] INFO  com.hackathonproject.steps.StepDefs - Searching for service: Hospital in location: Bangalore
+2026-06-04 08:54:09 [TestNG-tests-1] INFO  com.hackathonproject.util.ScreenshotUtil - Screenshot saved: edge_1_search_result_2026-06-04_08-54-09-544.png
+2026-06-04 08:54:09 [TestNG-tests-2] INFO  com.hackathonproject.util.ScreenshotUtil - Screenshot saved: edge_1_search_result_2026-06-04_08-54-09-626.png
+2026-06-04 08:54:11 [TestNG-tests-1] INFO  com.hackathonproject.pages.HospitalListingPage - Processing 10 hospitals...
+2026-06-04 08:54:11 [TestNG-tests-2] INFO  com.hackathonproject.pages.HospitalListingPage - Processing 10 hospitals...
+2026-06-04 08:54:14 [TestNG-tests-2] INFO  com.hackathonproject.pages.HospitalListingPage - Found: Manipal Hospital Varthur Road (formerly Columbia Asia Hospital)
+2026-06-04 08:54:14 [TestNG-tests-1] INFO  com.hackathonproject.pages.HospitalListingPage - Found: Manipal Hospital Varthur Road (formerly Columbia Asia Hospital)
+2026-06-04 08:54:16 [TestNG-tests-1] INFO  com.hackathonproject.pages.HospitalListingPage - Found: Manipal Hospitals
+2026-06-04 08:54:17 [TestNG-tests-2] INFO  com.hackathonproject.pages.HospitalListingPage - Found: Manipal Hospitals
+2026-06-04 08:54:18 [TestNG-tests-1] INFO  com.hackathonproject.pages.HospitalListingPage - Found: Koshys Hospital
+2026-06-04 08:54:19 [TestNG-tests-2] INFO  com.hackathonproject.pages.HospitalListingPage - Found: Koshys Hospital
+2026-06-04 08:54:20 [TestNG-tests-1] INFO  com.hackathonproject.pages.HospitalListingPage - Found: Motherhood Hospital
+2026-06-04 08:54:21 [TestNG-tests-2] INFO  com.hackathonproject.pages.HospitalListingPage - Found: Motherhood Hospital
+2026-06-04 08:54:22 [TestNG-tests-1] INFO  com.hackathonproject.pages.HospitalListingPage - Found: Motherhood Hospital
+2026-06-04 08:54:24 [TestNG-tests-2] INFO  com.hackathonproject.pages.HospitalListingPage - Found: Motherhood Hospital
+2026-06-04 08:54:25 [TestNG-tests-1] INFO  com.hackathonproject.pages.HospitalListingPage - Found: Sagar Hospitals
+2026-06-04 08:54:26 [TestNG-tests-2] INFO  com.hackathonproject.pages.HospitalListingPage - Found: Sagar Hospitals
+2026-06-04 08:54:27 [TestNG-tests-1] INFO  com.hackathonproject.pages.HospitalListingPage - Found: Apollo Cradle & Children’s Hospital
+2026-06-04 08:54:28 [TestNG-tests-2] INFO  com.hackathonproject.pages.HospitalListingPage - Found: Apollo Cradle & Children’s Hospital
+2026-06-04 08:54:29 [TestNG-tests-1] INFO  com.hackathonproject.pages.HospitalListingPage - Found: Cloudnine Hospital - Old Airport Road
+2026-06-04 08:54:29 [TestNG-tests-1] INFO  com.hackathonproject.steps.StepDefs - --- Hospitals (Open 24x7, Parking, Rating > 3.5) ---
+2026-06-04 08:54:29 [TestNG-tests-1] INFO  com.hackathonproject.steps.StepDefs - Manipal Hospital Varthur Road (formerly Columbia Asia Hospital)
+2026-06-04 08:54:29 [TestNG-tests-1] INFO  com.hackathonproject.steps.StepDefs - Manipal Hospitals
+2026-06-04 08:54:29 [TestNG-tests-1] INFO  com.hackathonproject.steps.StepDefs - Koshys Hospital
+2026-06-04 08:54:29 [TestNG-tests-1] INFO  com.hackathonproject.steps.StepDefs - Motherhood Hospital
+2026-06-04 08:54:29 [TestNG-tests-1] INFO  com.hackathonproject.steps.StepDefs - Motherhood Hospital
+2026-06-04 08:54:29 [TestNG-tests-1] INFO  com.hackathonproject.steps.StepDefs - Sagar Hospitals
+2026-06-04 08:54:29 [TestNG-tests-1] INFO  com.hackathonproject.steps.StepDefs - Apollo Cradle & Children’s Hospital
+2026-06-04 08:54:29 [TestNG-tests-1] INFO  com.hackathonproject.steps.StepDefs - Cloudnine Hospital - Old Airport Road
+2026-06-04 08:54:30 [TestNG-tests-1] INFO  com.hackathonproject.util.ExcelWriter - Written 8 hospitals to Excel
+2026-06-04 08:54:30 [TestNG-tests-1] INFO  com.hackathonproject.util.ExcelWriter - Saved Excel: target/generatedData_edge.xlsx
+2026-06-04 08:54:30 [TestNG-tests-1] INFO  com.hackathonproject.hooks.CucumberHooks - Scenario Status: PASSED
+2026-06-04 08:54:30 [TestNG-tests-1] INFO  com.hackathonproject.hooks.CucumberHooks - ---------- SCENARIO ENDED: Find Hospitals in Bangalore open 24x7 with parking and rating above 3.5 ----------
+2026-06-04 08:54:30 [TestNG-tests-2] INFO  com.hackathonproject.pages.HospitalListingPage - Found: Cloudnine Hospital - Old Airport Road
+2026-06-04 08:54:30 [TestNG-tests-1] INFO  com.hackathonproject.base.BaseTest - Closing browser on thread 35
+2026-06-04 08:54:31 [TestNG-tests-2] INFO  com.hackathonproject.steps.StepDefs - --- Hospitals (Open 24x7, Parking, Rating > 3.5) ---
+2026-06-04 08:54:31 [TestNG-tests-2] INFO  com.hackathonproject.steps.StepDefs - Manipal Hospital Varthur Road (formerly Columbia Asia Hospital)
+2026-06-04 08:54:31 [TestNG-tests-2] INFO  com.hackathonproject.steps.StepDefs - Manipal Hospitals
+2026-06-04 08:54:31 [TestNG-tests-2] INFO  com.hackathonproject.steps.StepDefs - Koshys Hospital
+2026-06-04 08:54:31 [TestNG-tests-2] INFO  com.hackathonproject.steps.StepDefs - Motherhood Hospital
+2026-06-04 08:54:31 [TestNG-tests-2] INFO  com.hackathonproject.steps.StepDefs - Motherhood Hospital
+2026-06-04 08:54:31 [TestNG-tests-2] INFO  com.hackathonproject.steps.StepDefs - Sagar Hospitals
+2026-06-04 08:54:31 [TestNG-tests-2] INFO  com.hackathonproject.steps.StepDefs - Apollo Cradle & Children’s Hospital
+2026-06-04 08:54:31 [TestNG-tests-2] INFO  com.hackathonproject.steps.StepDefs - Cloudnine Hospital - Old Airport Road
+2026-06-04 08:54:31 [TestNG-tests-2] INFO  com.hackathonproject.util.ExcelWriter - Written 8 hospitals to Excel
+2026-06-04 08:54:31 [TestNG-tests-2] INFO  com.hackathonproject.util.ExcelWriter - Saved Excel: target/generatedData_edge.xlsx
+2026-06-04 08:54:31 [TestNG-tests-2] INFO  com.hackathonproject.hooks.CucumberHooks - Scenario Status: PASSED
+2026-06-04 08:54:31 [TestNG-tests-2] INFO  com.hackathonproject.hooks.CucumberHooks - ---------- SCENARIO ENDED: Find Hospitals in Bangalore open 24x7 with parking and rating above 3.5 ----------
+2026-06-04 08:54:31 [TestNG-tests-2] INFO  com.hackathonproject.base.BaseTest - Closing browser on thread 36
+2026-06-04 08:54:34 [TestNG-tests-1] INFO  com.hackathonproject.listeners.TestListener - ✔ TEST PASSED: runScenario
+2026-06-04 08:54:34 [TestNG-tests-1] INFO  com.hackathonproject.listeners.TestListener - >>> TEST STARTED: runScenario
+2026-06-04 08:54:34 [TestNG-tests-1] INFO  com.hackathonproject.base.BaseTest - Initializing Browser: edge on thread 35
+2026-06-04 08:54:35 [TestNG-tests-2] INFO  com.hackathonproject.listeners.TestListener - ✔ TEST PASSED: runScenario
+2026-06-04 08:54:35 [TestNG-tests-2] INFO  com.hackathonproject.listeners.TestListener - >>> TEST STARTED: runScenario
+2026-06-04 08:54:35 [TestNG-tests-2] INFO  com.hackathonproject.base.BaseTest - Initializing Browser: edge on thread 36
+2026-06-04 08:54:40 [TestNG-tests-1] INFO  com.hackathonproject.base.BaseTest - Browser launched successfully
+2026-06-04 08:54:40 [TestNG-tests-1] INFO  com.hackathonproject.hooks.CucumberHooks - ---------- SCENARIO STARTED: Capture top cities from Diagnostics page on Practo website ----------
+2026-06-04 08:54:40 [TestNG-tests-1] INFO  com.hackathonproject.hooks.CucumberHooks - Tags: [@Smoke, @Navigation]
+2026-06-04 08:54:41 [TestNG-tests-2] INFO  com.hackathonproject.base.BaseTest - Browser launched successfully
+2026-06-04 08:54:41 [TestNG-tests-2] INFO  com.hackathonproject.hooks.CucumberHooks - ---------- SCENARIO STARTED: Capture top cities from Diagnostics page on Practo website ----------
+2026-06-04 08:54:41 [TestNG-tests-2] INFO  com.hackathonproject.hooks.CucumberHooks - Tags: [@Smoke, @Navigation]
+2026-06-04 08:54:44 [TestNG-tests-1] INFO  com.hackathonproject.steps.StepDefs - On Practo Home: Practo | Video Consultation with Doctors, Book Doctor Appointments, Order Medicine, Diagnostic Tests
+2026-06-04 08:54:44 [TestNG-tests-1] INFO  com.hackathonproject.steps.StepDefs - Clicking on Lab Tests
+2026-06-04 08:54:44 [TestNG-tests-2] INFO  com.hackathonproject.steps.StepDefs - On Practo Home: Practo | Video Consultation with Doctors, Book Doctor Appointments, Order Medicine, Diagnostic Tests
+2026-06-04 08:54:44 [TestNG-tests-2] INFO  com.hackathonproject.steps.StepDefs - Clicking on Lab Tests
+2026-06-04 08:54:46 [TestNG-tests-1] INFO  com.hackathonproject.steps.StepDefs - --- Top Diagnostic Cities ---
+2026-06-04 08:54:46 [TestNG-tests-1] INFO  com.hackathonproject.steps.StepDefs - Bangalore
+2026-06-04 08:54:46 [TestNG-tests-1] INFO  com.hackathonproject.steps.StepDefs - Delhi
+2026-06-04 08:54:46 [TestNG-tests-1] INFO  com.hackathonproject.steps.StepDefs - Mumbai
+2026-06-04 08:54:46 [TestNG-tests-1] INFO  com.hackathonproject.steps.StepDefs - Chennai
+2026-06-04 08:54:46 [TestNG-tests-1] INFO  com.hackathonproject.steps.StepDefs - Hyderabad
+2026-06-04 08:54:46 [TestNG-tests-1] INFO  com.hackathonproject.steps.StepDefs - Kolkata
+2026-06-04 08:54:46 [TestNG-tests-1] INFO  com.hackathonproject.steps.StepDefs - Pune
+2026-06-04 08:54:46 [TestNG-tests-1] INFO  com.hackathonproject.steps.StepDefs - Ahmedabad
+2026-06-04 08:54:47 [TestNG-tests-1] INFO  com.hackathonproject.util.ScreenshotUtil - Screenshot saved: edge_2_top_cities_2026-06-04_08-54-47-115.png
+2026-06-04 08:54:47 [TestNG-tests-1] INFO  com.hackathonproject.util.ExcelWriter - Written 8 cities to Excel
+2026-06-04 08:54:47 [TestNG-tests-1] INFO  com.hackathonproject.util.ExcelWriter - Saved Excel: target/generatedData_edge.xlsx
+2026-06-04 08:54:47 [TestNG-tests-1] INFO  com.hackathonproject.hooks.CucumberHooks - Scenario Status: PASSED
+2026-06-04 08:54:47 [TestNG-tests-1] INFO  com.hackathonproject.hooks.CucumberHooks - ---------- SCENARIO ENDED: Capture top cities from Diagnostics page on Practo website ----------
+2026-06-04 08:54:47 [TestNG-tests-1] INFO  com.hackathonproject.base.BaseTest - Closing browser on thread 35
+2026-06-04 08:54:48 [TestNG-tests-2] INFO  com.hackathonproject.steps.StepDefs - --- Top Diagnostic Cities ---
+2026-06-04 08:54:48 [TestNG-tests-2] INFO  com.hackathonproject.steps.StepDefs - Bangalore
+2026-06-04 08:54:48 [TestNG-tests-2] INFO  com.hackathonproject.steps.StepDefs - Delhi
+2026-06-04 08:54:48 [TestNG-tests-2] INFO  com.hackathonproject.steps.StepDefs - Mumbai
+2026-06-04 08:54:48 [TestNG-tests-2] INFO  com.hackathonproject.steps.StepDefs - Chennai
+2026-06-04 08:54:48 [TestNG-tests-2] INFO  com.hackathonproject.steps.StepDefs - Hyderabad
+2026-06-04 08:54:48 [TestNG-tests-2] INFO  com.hackathonproject.steps.StepDefs - Kolkata
+2026-06-04 08:54:48 [TestNG-tests-2] INFO  com.hackathonproject.steps.StepDefs - Pune
+2026-06-04 08:54:48 [TestNG-tests-2] INFO  com.hackathonproject.steps.StepDefs - Ahmedabad
+2026-06-04 08:54:48 [TestNG-tests-2] INFO  com.hackathonproject.util.ScreenshotUtil - Screenshot saved: edge_2_top_cities_2026-06-04_08-54-48-385.png
+2026-06-04 08:54:48 [TestNG-tests-2] INFO  com.hackathonproject.util.ExcelWriter - Written 8 cities to Excel
+2026-06-04 08:54:48 [TestNG-tests-2] INFO  com.hackathonproject.util.ExcelWriter - Saved Excel: target/generatedData_edge.xlsx
+2026-06-04 08:54:48 [TestNG-tests-2] INFO  com.hackathonproject.hooks.CucumberHooks - Scenario Status: PASSED
+2026-06-04 08:54:48 [TestNG-tests-2] INFO  com.hackathonproject.hooks.CucumberHooks - ---------- SCENARIO ENDED: Capture top cities from Diagnostics page on Practo website ----------
+2026-06-04 08:54:48 [TestNG-tests-2] INFO  com.hackathonproject.base.BaseTest - Closing browser on thread 36
+2026-06-04 08:54:51 [TestNG-tests-1] INFO  com.hackathonproject.listeners.TestListener - ✔ TEST PASSED: runScenario
+2026-06-04 08:54:51 [TestNG-tests-1] INFO  com.hackathonproject.listeners.TestListener - >>> TEST STARTED: runScenario
+2026-06-04 08:54:51 [TestNG-tests-1] INFO  com.hackathonproject.base.BaseTest - Initializing Browser: edge on thread 35
+2026-06-04 08:54:52 [TestNG-tests-2] INFO  com.hackathonproject.listeners.TestListener - ✔ TEST PASSED: runScenario
+2026-06-04 08:54:52 [TestNG-tests-2] INFO  com.hackathonproject.listeners.TestListener - >>> TEST STARTED: runScenario
+2026-06-04 08:54:52 [TestNG-tests-2] INFO  com.hackathonproject.base.BaseTest - Initializing Browser: edge on thread 36
+2026-06-04 08:54:56 [TestNG-tests-1] INFO  com.hackathonproject.base.BaseTest - Browser launched successfully
+2026-06-04 08:54:56 [TestNG-tests-1] INFO  com.hackathonproject.hooks.CucumberHooks - ---------- SCENARIO STARTED: Verify submit button is disabled when Corporate Wellness form has invalid phone number ----------
+2026-06-04 08:54:56 [TestNG-tests-1] INFO  com.hackathonproject.hooks.CucumberHooks - Tags: [@Smoke, @FormValidation]
+2026-06-04 08:54:57 [TestNG-tests-2] INFO  com.hackathonproject.base.BaseTest - Browser launched successfully
+2026-06-04 08:54:57 [TestNG-tests-2] INFO  com.hackathonproject.hooks.CucumberHooks - ---------- SCENARIO STARTED: Verify submit button is disabled when Corporate Wellness form has invalid phone number ----------
+2026-06-04 08:54:57 [TestNG-tests-2] INFO  com.hackathonproject.hooks.CucumberHooks - Tags: [@Smoke, @FormValidation]
+2026-06-04 08:54:59 [TestNG-tests-1] INFO  com.hackathonproject.steps.StepDefs - On Practo Home: Practo | Video Consultation with Doctors, Book Doctor Appointments, Order Medicine, Diagnostic Tests
+2026-06-04 08:54:59 [TestNG-tests-1] INFO  com.hackathonproject.steps.StepDefs - Navigating to Corporate Wellness page
+2026-06-04 08:55:00 [TestNG-tests-2] INFO  com.hackathonproject.steps.StepDefs - On Practo Home: Practo | Video Consultation with Doctors, Book Doctor Appointments, Order Medicine, Diagnostic Tests
+2026-06-04 08:55:00 [TestNG-tests-2] INFO  com.hackathonproject.steps.StepDefs - Navigating to Corporate Wellness page
+2026-06-04 08:55:00 [TestNG-tests-1] INFO  com.hackathonproject.steps.StepDefs - Window title: Practo | Video Consultation with Doctors, Book Doctor Appointments, Order Medicine, Diagnostic Tests
+2026-06-04 08:55:02 [TestNG-tests-2] INFO  com.hackathonproject.steps.StepDefs - Window title: Practo | Video Consultation with Doctors, Book Doctor Appointments, Order Medicine, Diagnostic Tests
+2026-06-04 08:55:04 [TestNG-tests-1] INFO  com.hackathonproject.steps.StepDefs - Window title: Employee Health | Corporate Health & Wellness Plans | Practo
+2026-06-04 08:55:04 [TestNG-tests-1] INFO  com.hackathonproject.steps.StepDefs - Switched to: Employee Health | Corporate Health & Wellness Plans | Practo
+2026-06-04 08:55:04 [TestNG-tests-1] INFO  com.hackathonproject.steps.StepDefs - Filling form - Name: Gopal, Org: Cognizant, Phone: 8970657, Email: gopal@cognizant.com
+2026-06-04 08:55:05 [TestNG-tests-2] INFO  com.hackathonproject.steps.StepDefs - Window title: Employee Health | Corporate Health & Wellness Plans | Practo
+2026-06-04 08:55:05 [TestNG-tests-2] INFO  com.hackathonproject.steps.StepDefs - Switched to: Employee Health | Corporate Health & Wellness Plans | Practo
+2026-06-04 08:55:05 [TestNG-tests-2] INFO  com.hackathonproject.steps.StepDefs - Filling form - Name: Gopal, Org: Cognizant, Phone: 8970657, Email: gopal@cognizant.com
+2026-06-04 08:55:06 [TestNG-tests-1] INFO  com.hackathonproject.util.ScreenshotUtil - Screenshot saved: edge_3_corporate_form_filled_2026-06-04_08-55-06-205.png
+2026-06-04 08:55:06 [TestNG-tests-1] INFO  com.hackathonproject.steps.StepDefs - Submit Button Enabled: false
+2026-06-04 08:55:06 [TestNG-tests-1] INFO  com.hackathonproject.util.ScreenshotUtil - Screenshot saved: edge_3_submit_button_state_2026-06-04_08-55-06-501.png
+2026-06-04 08:55:06 [TestNG-tests-1] INFO  com.hackathonproject.steps.StepDefs - Submit button disabled assertion passed — invalid phone correctly rejected
+2026-06-04 08:55:06 [TestNG-tests-1] INFO  com.hackathonproject.hooks.CucumberHooks - Scenario Status: PASSED
+2026-06-04 08:55:06 [TestNG-tests-1] INFO  com.hackathonproject.hooks.CucumberHooks - ---------- SCENARIO ENDED: Verify submit button is disabled when Corporate Wellness form has invalid phone number ----------
+2026-06-04 08:55:06 [TestNG-tests-1] INFO  com.hackathonproject.base.BaseTest - Closing browser on thread 35
+2026-06-04 08:55:07 [TestNG-tests-2] INFO  com.hackathonproject.util.ScreenshotUtil - Screenshot saved: edge_3_corporate_form_filled_2026-06-04_08-55-07-501.png
+2026-06-04 08:55:07 [TestNG-tests-2] INFO  com.hackathonproject.steps.StepDefs - Submit Button Enabled: false
+2026-06-04 08:55:07 [TestNG-tests-2] INFO  com.hackathonproject.util.ScreenshotUtil - Screenshot saved: edge_3_submit_button_state_2026-06-04_08-55-07-782.png
+2026-06-04 08:55:07 [TestNG-tests-2] INFO  com.hackathonproject.steps.StepDefs - Submit button disabled assertion passed — invalid phone correctly rejected
+2026-06-04 08:55:07 [TestNG-tests-2] INFO  com.hackathonproject.hooks.CucumberHooks - Scenario Status: PASSED
+2026-06-04 08:55:07 [TestNG-tests-2] INFO  com.hackathonproject.hooks.CucumberHooks - ---------- SCENARIO ENDED: Verify submit button is disabled when Corporate Wellness form has invalid phone number ----------
+2026-06-04 08:55:07 [TestNG-tests-2] INFO  com.hackathonproject.base.BaseTest - Closing browser on thread 36
+2026-06-04 08:55:10 [TestNG-tests-1] INFO  com.hackathonproject.listeners.TestListener - ✔ TEST PASSED: runScenario
+2026-06-04 08:55:10 [TestNG-tests-1] INFO  com.hackathonproject.hooks.CucumberHooks - ========== TEST EXECUTION COMPLETED ==========
+2026-06-04 08:55:10 [TestNG-tests-1] INFO  com.hackathonproject.listeners.TestListener - ========== TEST SUITE FINISHED: Edge Test ==========
+2026-06-04 08:55:10 [TestNG-tests-1] INFO  com.hackathonproject.listeners.TestListener - Passed : 3
+2026-06-04 08:55:10 [TestNG-tests-1] INFO  com.hackathonproject.listeners.TestListener - Failed : 0
+2026-06-04 08:55:10 [TestNG-tests-1] INFO  com.hackathonproject.listeners.TestListener - Skipped: 0
+2026-06-04 08:55:10 [TestNG-tests-1] INFO  com.hackathonproject.listeners.TestListener - Cucumber report saved for browser: edge
+2026-06-04 08:55:10 [TestNG-tests-2] INFO  com.hackathonproject.listeners.TestListener - ✔ TEST PASSED: runScenario
+2026-06-04 08:55:10 [TestNG-tests-2] INFO  com.hackathonproject.hooks.CucumberHooks - ========== TEST EXECUTION COMPLETED ==========
+2026-06-04 08:55:10 [TestNG-tests-2] INFO  com.hackathonproject.listeners.TestListener - ========== TEST SUITE FINISHED: Chrome Test ==========
+2026-06-04 08:55:10 [TestNG-tests-2] INFO  com.hackathonproject.listeners.TestListener - Passed : 3
+2026-06-04 08:55:10 [TestNG-tests-2] INFO  com.hackathonproject.listeners.TestListener - Failed : 0
+2026-06-04 08:55:10 [TestNG-tests-2] INFO  com.hackathonproject.listeners.TestListener - Skipped: 0
+2026-06-04 08:55:10 [TestNG-tests-2] INFO  com.hackathonproject.listeners.TestListener - Cucumber report saved for browser: edge
